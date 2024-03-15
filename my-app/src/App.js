@@ -1,15 +1,13 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //yönlendirmeleri tanımlamızı sağlıyor
+import { Header } from './header';
 
 
-
-function App() {
+export const App = () =>{
   return (
-    <Router>
-       <Routes>
-        
-       </Routes>
-    </Router>
+    <>
+      <Header/>
+    </>
     );
   }
   export default App;
