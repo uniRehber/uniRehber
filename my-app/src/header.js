@@ -52,7 +52,7 @@ const StyledHeader = styled.div`
     }
     /*clicked*/
     .burger-bar.clicked:nth-child(1){
-        transform: rotate(45deg) translate(0.75em, 1.25em);
+        transform: rotate(45deg) translate(0.5em, 0.7em);
         transition: ease-out 0.5s;
     }
     .burger-bar.clicked:nth-child(2){
@@ -60,7 +60,7 @@ const StyledHeader = styled.div`
         transition: ease-out 0.5s;
     }
     .burger-bar.clicked:nth-child(3){
-        transform: rotate(45deg) translate(-0.5em, 1em);
+        transform: rotate(-45deg) translate(0.5em, -0.7em);
         transition: ease-out 0.5s;
     }
 
