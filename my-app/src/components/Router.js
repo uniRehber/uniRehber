@@ -10,14 +10,11 @@ export const Routers = () => {
     return (
     <Router>
         <Switch>
-            <Router path="/">
+            <Router path="/" exact>
                 <HomePage />
             </Router>
             <Router path="/Arama">
                 <Search />
-            </Router>
-            <Router path="/Anasayfa">
-                <HomePage />
             </Router>
             <Router path="/Hakkimizda">
                 <AboutPage />
