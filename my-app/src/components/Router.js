@@ -2,12 +2,12 @@ import React, { useContext } from "react";
 import { HomePage } from "../pages/HomePage"; // named export
 import { Universiteler } from "../pages/Universiteler"; // named export
 import { Bolumler } from "../pages/Bolumler"; // named export
-import { PrivatePage } from "../pages/PrivatePage"; // named export
+import PrivatePage from "../pages/PrivatePage"; // default export
 import { 
     BrowserRouter as Router, 
     Routes,
     Route,
-    Redirect 
+    Navigate // 'Redirect' yerine 'Navigate' kullanıldı
 } from "react-router-dom";
 
 import { AppContext } from "../providers/AppProvider";
@@ -24,7 +24,7 @@ function PrivateRoute({ children, ...rest }) {
           state.loggedIn ? (
             children
           ) : (
-            <Redirect to={{ pathname: "/", state: { from: location } }} />
+            <Navigate to="/" /> // 'Redirect' yerine 'Navigate' kullanıldı
           )
         }
       />
