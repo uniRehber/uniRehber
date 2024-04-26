@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //yö
 import { Header } from './header';
 
 
+
 export const App = () =>{
   return (
     <>
