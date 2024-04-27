@@ -4,6 +4,9 @@ import logo from './kepLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { useNavigate } from "react-router-dom"; // React Router kullanarak sayfa yönlendirme işlemi için
+import { Route, BrowserRouter as Router, Routes, Link} from "react-router-dom";
+import { AboutPage } from "./pages/AboutPage";
+import { HomePage } from "./pages/HomePage";
 
 const StyledHeader = styled.div`
     height: 15vh;
@@ -114,21 +117,31 @@ export const Header = () => {
     };
     // const element = <FontAwesomeIcon icon="fa-regular fa-user" />
 
+    const Anasayfa = () => <h3>Anasayfa</h3>;
+    const Hakkımızda = () => <h3>Hakkımızda</h3>;
+
     return (
-        <StyledHeader>
+        <StyledHeader>  
+            <Router>
+
+            
+
+            {/* <Routes>
+                <Route path="/" element={<HomePage />}/>
+                <Route path="/aboutpage" element={<AboutPage />}/>
+            </Routes> */}
             <div className="logo-container">
                 <img src={logo} alt="logo"/>
             </div>
             <nav className="menu-container">
                 <ul>
-                    <li>Arama</li>
-                    <li>Anasayfa</li>
-                    <li>Hakkımızda</li>
+                    
+                    <li><Link to="/">Anasayfa</Link></li>
+                    <li><Link to="/aboutpage">AboutPage</Link></li>
                 </ul>
                 <div className="user-icons" >
                     <FontAwesomeIcon icon={faUser} />
                 </div>
-                
                 <div className="burgerMenu" onClick={updateMenu}>
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
@@ -151,7 +164,13 @@ export const Header = () => {
                     </li> */}
                 </ul>
             </nav>
-           
+                <Routes>
+                    <Route path="/" component={HomePage} />
+                    <Route path="/aboutpage" component={AboutPage} />
+
+                </Routes>
+            </Router>
+
         </StyledHeader>
     );
 };
