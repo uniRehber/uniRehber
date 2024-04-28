@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import styled from 'styled-components';
 import logo from './kepLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-regular-svg-icons';
-import { useNavigate } from "react-router-dom"; // React Router kullanarak sayfa yönlendirme işlemi için
-import { Route, BrowserRouter as Router, Routes, Link} from "react-router-dom";
+// import { faUser } from '@fortawesome/free-regular-svg-icons';
+import { FaUser } from "react-icons/fa";
+
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; //yönlendirmeleri tanımlamızı sağlıyor
 import { AboutPage } from "./pages/AboutPage";
 import { HomePage } from "./pages/HomePage";
+import {LoginPage} from "./pages/Login/LoginPage";
 
 const StyledHeader = styled.div`
     height: 15vh;
@@ -115,33 +117,24 @@ export const Header = () => {
     const updateMenu = () => {
         setIsMenuClicked(!isMenuClicked);
     };
-    // const element = <FontAwesomeIcon icon="fa-regular fa-user" />
-
-    const Anasayfa = () => <h3>Anasayfa</h3>;
-    const Hakkımızda = () => <h3>Hakkımızda</h3>;
 
     return (
         <StyledHeader>  
             <Router>
-
-            
-
-            {/* <Routes>
-                <Route path="/" element={<HomePage />}/>
-                <Route path="/aboutpage" element={<AboutPage />}/>
-            </Routes> */}
             <div className="logo-container">
                 <img src={logo} alt="logo"/>
             </div>
             <nav className="menu-container">
-                <ul>
-                    
+                <ul> 
                     <li><Link to="/">Anasayfa</Link></li>
-                    <li><Link to="/aboutpage">AboutPage</Link></li>
+                    <li><Link to="/aboutpage">Hakkımızda</Link></li>
                 </ul>
                 <div className="user-icons" >
-                    <FontAwesomeIcon icon={faUser} />
+                    <Link to="/loginpage"><FaUser /></Link>
+                    {/* <Route path="/pages/Login/loginpage" element={<LoginPage />} /> */}
+                    {/* <Route path="/loginpage" component={<FontAwesomeIcon icon={faUser} />} /> */}
                 </div>
+                  
                 <div className="burgerMenu" onClick={updateMenu}>
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
@@ -165,9 +158,9 @@ export const Header = () => {
                 </ul>
             </nav>
                 <Routes>
-                    <Route path="/" component={HomePage} />
-                    <Route path="/aboutpage" component={AboutPage} />
-
+                    <Route path="/" element={<HomePage/>} />
+                    <Route path="/aboutpage" element={<AboutPage/>} />
+                    <Route path="/loginpage" element={<LoginPage/>} />
                 </Routes>
             </Router>
 
