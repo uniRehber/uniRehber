@@ -1,15 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './header';
-import ImageSlider from './ImageSlider'; 
+import ImageSlider from './pages/ImageSlider'; 
+import image1 from './image/1.resim.jpg';
+import image2 from './image/2.resim.jpg';
+import image3 from './image/3.resim.jpg';
+import image4 from './image/4.resim.jpg';
 
-
-const images = [
-  '1.resim.jpeg',
-  '2.resim.jpeg',
-  '3.resim.jpeg',
-  '4.resim.jpeg',
-];
+const images = [image1, image2, image3, image4];
 
 export const App = () => {
   return (
