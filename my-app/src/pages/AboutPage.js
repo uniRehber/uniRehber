@@ -1,11 +1,11 @@
 import React from 'react'
 import { Header } from '../header';
 
-export const Universiteler= () => {
+export const HomePage = () => {
   return (
     <div>
         <Header/>
-        Universiteler
+        Hakkimizda
     </div>
   )
 }

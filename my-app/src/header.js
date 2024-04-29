@@ -1,9 +1,6 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import styled from 'styled-components';
 import logo from './kepLogo.png';
-import { Link, Router } from 'react-router-dom';
-import { Routers } from "./components/Router";
-import { AppContext } from "./providers/AppProvider";
 
 const StyledHeader = styled.div`
     height: 15vh;
@@ -31,7 +28,7 @@ const StyledHeader = styled.div`
     }
 
     .burgerMenu {
-        margin-left: auto; /*ögeyi sağa dayali  yapar*/ 
+        margin-left: auto; /*ögeyi sağa dayalı  yapar*/ */
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -77,14 +74,9 @@ const StyledHeader = styled.div`
         list-style: none;
     }
 
-    ul a {
+    ul li {
         float: left;
         color: #FFF;
-        text-decoration: none;
-    }
-
-    ul a:hover {
-        opacity: 0.7;
     }
 
     ul li:not(:first-child){
@@ -98,43 +90,27 @@ export const Header = () => {
     const updateMenu = () => {
         setIsMenuClicked(!isMenuClicked);
     };
-    const {state, dispatch} = useContext(AppContext);
 
     return (
-        <Router>
-            <StyledHeader>
-                <div className="logo-container">
-                    <img src={logo} alt="logo"/>
+        <StyledHeader>
+            <div className="logo-container">
+                <img src={logo} alt="logo"/>
+            </div>
+            <nav className="menu-container">
+                <ul>
+                    <li>Arama</li>
+                    <li>Anasayfa</li>
+                    <li>Hakkımızda</li>
+                </ul>
+                <div className="burgerMenu" onClick={updateMenu}>
+                    <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
+                    <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
+                    <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
                 </div>
-                <nav className="menu-container">
-                    <ul>
-                        <li>
-                            <Link to="/">Anasayfa</Link>
-                            <Link to="/Universiteler">Üniversiteler</Link>
-                            <Link to="/Bolumler">Bölümler</Link>
-                            <Link to="/priveta">Private Area</Link>
-                        </li>
-                    </ul>
-                    {state.loggedIn ? (
-                        <button onClick={()=> dispatch({ type: "logout"})}>
-                            logout - {state.user}
-                        </button>
-                    ): (
-                        <button onClick={()=> dispatch({ type: "login",payload:"unirehber"})}>
-                            Giriş
-                        </button>
-                    )}
-                
-                    <div className="burgerMenu" onClick={updateMenu}>
-                        <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
-                        <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
-                        <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
-                    </div>
-                </nav>
-                <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>
-                    {/* Buraya menü içeriğini ekleyebilirsiniz */}
-                </div>
-            </StyledHeader>
-        </Router>
+            </nav>
+            <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>
+                {/* Buraya menü içeriğini ekleyebilirsiniz */}
+            </div>
+        </StyledHeader>
     );
 };
