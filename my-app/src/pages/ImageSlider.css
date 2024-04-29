@@ -1,0 +1,19 @@
+.image-slider {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+  
+.image-slider .slick-dots {
+  bottom: -30px;
+}
+  
+.image-slider img {
+  max-width: 10%;
+  height: auto;
+  margin: auto;
+  border-color: black;
+  border-radius: 10px;
+  /* display: 'block'; */
+}
