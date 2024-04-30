@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './header';
-import ImageSlider from './pages/ImageSlider'; 
+import ImageSlider from './pages/ImageSlider.js'; 
 import image1 from './image/1.resim.jpg';
 import image2 from './image/2.resim.jpg';
 import image3 from './image/3.resim.jpg';
