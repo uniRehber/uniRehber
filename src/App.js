@@ -6,8 +6,8 @@ import image1 from './image/1.resim.jpg';
 import image2 from './image/2.resim.jpg';
 import image3 from './image/3.resim.jpg';
 import image4 from './image/4.resim.jpg';
-import { LoginPage } from './pages/Login/LoginPage';
-import { HomePage } from './pages/HomePage';
+import { LoginPage } from './pages/Login/LoginPage.jsx';
+import { HomePage } from './pages/HomePage.js';
 
 
 const images = [image1, image2, image3, image4];
