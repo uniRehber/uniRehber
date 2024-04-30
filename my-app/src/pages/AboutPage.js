@@ -1,11 +1,12 @@
 import React from 'react'
 import { Header } from '../header';
 
-export const HomePage = () => {
+
+export const AboutPage = () => {
   return (
     <div>
         <Header/>
-        Hakkimizda
+        Hakkımızda sayfasına hoşgeldiniz
     </div>
   )
 }
