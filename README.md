@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# UniRehber
 
-## Available Scripts
+Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği bölümünde Tasarım dersi için yapmış olduğumuz bir web uygulamasıdır. 
 
-In the project directory, you can run:
+Uygulamanın sağladığı imkanlar :  
 
-### `npm start`
+- Üniversiteler, bölümleri, programları görüntüleyebime,
+- Kayıt olabilme,
+- Giriş yapabilme,
+- Kullanıcı için :
+    - Tercih robotunu kullanma,
+    - İstediği zaman sonucunu görüntüleyebilme,
+    - Üniversiteleri taban puanlarına göre sıralayabilme,
+    - Bölümleri sıralayabilme,
+    - Üniversiteler ve bölümler hakkında yorum yapabilme,
+    - Yorumunu silebilme, düzenleyebilme,
+    - Diğer yorum yapanlara cevap verebilme,
+- Admin için :  (Admin, kullanıcının imkanlarına da sahiptir. Aşağıda yazanlar ek özellikleridir.)
+    - Yeni üniversite, bölüm ekleyebilme,
+    - İstenilen üniversite ve bölümlerin silinmesi,
+    - İstenilen alanları güncelleyebilme,
+    - Kullanıcıları görüntüleyebilme, filtreleyebilme,
+    - Kulllanıcıları silebilme,
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uygulama Özellikleri
 
-### `npm test`
+Bu uygulama `npx create-react-app` komutu ile oluşturulmuş bir React.js projesidir.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Uygulama front-end ve back-end olmak üzere iki kısımdan oluşmaktadır.
+- Front-End çatısı olarak [React](https://react.dev/) kullanılmıştır.
+- Back-End Çatısı olarak [Express.Js](https://expressjs.com/) kullanılmıştır.
+- Front-End ve back-end arasındaki iletişim Rest Api ile sağlanmıştır.
 
-### `npm run build`
+## **Kullanılan Teknolojiler ve Araçlar**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Front-end: React
+- Back-end: ExpressJS
+- Veritabanı: MongoDB
+- Haberleşme: REST API, Axios, React Query
+- Sayfa Yönlendirme: React Router Dom
+- REST API Client: Postman
+- Versiyonlama: Git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uygulamanın Kişisel Bilgisayarınıza İndirilmesi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Uygulamayı İndirmek İçin :**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify     )
+```bash
+git clone https://github.com/uniRehber/uniRehber.git
+```
+## Teşekkürler
+Esra Aydoğan - Pınar Taylan 
