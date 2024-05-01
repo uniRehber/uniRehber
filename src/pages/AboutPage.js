@@ -3,19 +3,17 @@ import React from 'react';
 const AboutPage = () => {
   return (
     <div style={{ backgroundColor: '#f0f0f0', padding: '20px', borderRadius: '10px' }}>
-      <h1 style={{ color: '#333', textAlign: 'center' }}>Hakkımızda</h1>
+      <h2 style={{ color: '#333', textAlign: 'center' }}>Hakkımızda</h2>
       <p style={{ color: '#666', fontSize: '18px', lineHeight: '1.6' }}>
-        Biz kimiz? Ne iş yapıyoruz? Gibi bilgiler burada yer alabilir.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet 
-        metus ut odio congue, in sagittis elit tincidunt. Duis eget scelerisque 
-        nisi. Integer et vestibulum ante. Cras consequat dolor eget aliquam 
-        feugiat. Vivamus bibendum elit eu risus pulvinar vehicula. Sed congue 
-        nulla non mi commodo, et commodo risus sollicitudin. Vivamus vestibulum 
-        sem vitae venenatis vestibulum. Nullam dictum velit et mi ullamcorper, 
-        id posuere lacus venenatis. Integer dignissim quam a quam hendrerit, 
-        vel cursus sapien vehicula. Proin in nisl eu mi ultricies consectetur. 
-        Morbi fringilla, ligula in molestie fringilla, libero ex rutrum lacus, 
-        et luctus orci leo ut libero. Duis gravida bibendum tellus in ultrices.
+        Sitemiz kullanıcılara güncel bilgileri basit ve pratik bir şekilde ve hiç bir koşul 
+        getirmeden ve ücret talep etmeden sunmak için hizmet vermektedir. Bu sitede
+        verilen tüm bilgiler, dokümanlar ve haberlerin azda olsa eksik, yanlış, öznel 
+        ve / veya güncel olmama ihtimalleri vardır. Siteyi kullanan herkesin bu durumların farkında olması 
+        ve nihai kararlarını verip işlemlerini yaparken bu durumu göz önünde bulundurmaları önemle rica olunur. 
+        Kullanıcı ve adayların nihai kararlarında ve işlemlerinde YÖK, ÖSYM, MEB vb. resmi kurumların 
+        kaynaklarından ilk elden faydalanmaları ve bilgileri kontrol etmeleri tavsiye olunur. Site doğabilecek 
+        yanlış anlamalardan ve yanlışlıklardan dolayı sorumluluk kabul etmez. Site tüm kullanıcıların bu uyarıları 
+        okumuş olduklarını kabul ederiz.
       </p>
     </div>
   );

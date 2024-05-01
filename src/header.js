@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import styled from 'styled-components';
 import logo from './image/kepLogo.png';
 import { Link } from "react-router-dom";
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { FaUser } from "react-icons/fa";
-// import { HomePage } from "./pages/HomePage";
-// import { LoginPage } from "./pages/Login/LoginPage";
+
 
 const StyledHeader = styled.div`
     height: 15vh;
+    widht: 100%; 
     background-color: #050509;
     padding: 0 10px;
     display: flex;
@@ -94,7 +92,7 @@ const StyledHeader = styled.div`
         display: block;
         text-decoration: none;
         color: white;
-        padding: 0.5rem;
+        padding: 2rem;
         margin: 0 0.5rem;
         border-radius: 0.5rem;
     }
@@ -102,9 +100,9 @@ const StyledHeader = styled.div`
         background-color:#172554 ;
     }
     nav .menu span {
-        height: 0.4rem;
-        width: 100%;
-        background-color: #fff;
+        height: 2rem;
+        width: 900%;
+        background-color: #111;
         border-radius: 0.2rem;
     }
     .user-icons{
@@ -132,13 +130,11 @@ export const Header = () => {
             </div>
             <nav className="menu-container">
                 <ul> 
-                    <li><Link to="/">ANA SAYFA</Link></li>
-                    <li><Link to="/careerquiz">TERCİH ROBOTU</Link></li>
+                    <li><Link to="/">Ana Sayfa</Link></li>
+                    <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
                 <div className="user-icons" >
                     <Link to="/loginpage"><FaUser /></Link>
-                    {/* <Route path="/pages/Login/loginpage" element={<LoginPage />} /> */}
-                    {/* <Route path="/loginpage" component={<FontAwesomeIcon icon={faUser} />} /> */}
                 </div>
                   
                 <div className="burgerMenu" onClick={updateMenu}>
@@ -146,22 +142,17 @@ export const Header = () => {
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
                     <div className={`burger-bar ${isMenuClicked ? 'clicked' : 'unclicked'}`} />
                 </div>
-                <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>                        
-                    <span>Üniversiteler</span>
-                    <span>Bölümler</span>
-                    <span>Programlar</span>                
+                <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>
+                    <div>
+                        <Link to="/universities">Üniversiteler</Link>
+                    </div>
+                    <div>
+                        <Link to="/departmens">Bölümler</Link>
+                    </div>
+                    <div>
+                        <Link to="/programlar">Programlar</Link>
+                    </div>
                 </div>
-                <ul className={isMenuClicked ? "open" : ""}>
-                    {/* <li>
-                    About
-                    </li>
-                    <li>
-                    Services
-                    </li>
-                    <li>
-                    Contact
-                    </li> */}
-                </ul>
             </nav>
         </StyledHeader>
     );

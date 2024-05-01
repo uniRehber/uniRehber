@@ -11,10 +11,8 @@ const images = [image1, image2, image3, image4];
 export const HomePage = () => {
   return (
     <div>
-      <h3>ÜniRehber ile üniversite seçimi artık daha kolay!</h3>
       <ImageSlider images={images} />
       <AboutPage />
-      
     </div>
   )
 }

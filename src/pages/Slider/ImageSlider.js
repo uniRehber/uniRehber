@@ -19,7 +19,7 @@ const ImageSlider = ({ images }) => {
 
   return (
     <div className="image-slider">
-      <h2 style={{ color: '#222222'}} > Duyurular                         </h2>
+      <h2 style={{ color: '#222222'}} > Duyurular </h2>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
