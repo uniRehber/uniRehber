@@ -14,11 +14,12 @@ const ImageSlider = ({ images }) => {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: 'linear',
-    arrows: false // Okları devre dışı bırakın
+    arrows: false 
   };
 
   return (
     <div className="image-slider">
+      <h2 style={{ color: '#222222'}} > Duyurular                         </h2>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>

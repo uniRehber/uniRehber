@@ -11,3 +11,8 @@ const reportWebVitals = onPerfEntry => {
 };
 
 export default reportWebVitals;
+/*Bu kod parçası, web uygulamanızın 
+performansını ölçmek için kullanılan Web Vitals 
+kütüphanesini entegre ediyor. Bu kütüphane, web sayfanızın 
+kullanıcı deneyimini ölçmek için önemli performans 
+metriklerini izlemenizi sağlar..*/

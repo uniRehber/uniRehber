@@ -2,23 +2,23 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  padding: 100px;
-  position: relative; /* Resimlerin üstünde okları konumlandırmak için */
+  padding: 50px;
+  position: relative; 
 }
 
 .image-slider .slick-dots {
   position: relative; 
-  bottom: 10px; /* İstediğiniz pozisyona göre ayarlayın */
-  left: 0; /* Sol tarafta olmasını istiyorsanız left: 0; sağ tarafta olmasını istiyorsanız right: 0; olarak ayarlayın */
+  bottom: 10px; 
+  left: 0; 
   right: 0;
   margin: auto;
 }
 
 .image-slider img {
-  max-width: 90%;
+  max-width: 110%;
   height: auto;
   margin: auto;
-  border-color: black;
+  border-color: rgb(247, 8, 8);
   border-radius: 10px;
   display: block;
 }

@@ -1,29 +1,26 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header } from './header';
-import ImageSlider from './pages/Slider/ImageSlider.js'; 
-import image1 from './image/1.resim.jpg';
-import image2 from './image/2.resim.jpg';
-import image3 from './image/3.resim.jpg';
-import image4 from './image/4.resim.jpg';
+import { Header } from './Header.js';
 import { LoginPage } from './pages/Login/LoginPage.jsx';
 import { HomePage } from './pages/HomePage.js';
-
-
-const images = [image1, image2, image3, image4];
+import { CareerQuiz } from './pages/CareerQuiz.js';
+import { Departments } from './pages/Departments/Departments.js';
+import { Universities } from './pages/Universities/Universities.js';
 
 export const App = () => {
   return (
-    <>
+    <div >
     <Router>
       <Header />
-      <ImageSlider images={images} />
       <Routes>
         <Route path="/" element={<HomePage/>} />
+        <Route path="/careerquiz" element={<CareerQuiz/>} />
         <Route path="/loginpage" element={<LoginPage/>} />
+        <Route path="/departmens" element={<Departments/>} />
+        <Route path="/universities" element={<Universities/>} />
       </Routes>
     </Router>
-    </>
+    </div>
   );
 }
 
