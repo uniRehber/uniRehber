@@ -5,19 +5,17 @@ Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği bölümünde Tasarım 
 
 Uygulamanın sağladığı imkanlar :  
 
-- Ürünleri ve ürün detaylarını görüntüleme,
+- Üniversiteler, bölümleri, programları görüntüleyebime,
 - Kayıt olabilme,
 - Giriş yapabilme,
 - Kullanıcı için :
     - Tercih robotunu kullanma,
+    - İstediği zaman sonucunu görüntüleyebilme,
     - Üniversiteleri taban puanlarına göre sıralayabilme,
-    - Sipariş verebilme,
-    - Bilgilerini ekleyebilme,
-    - Bilgilerini silebilme,
-    - Bilgilerini güncelleyebilme,
-    - Siparişlerini yönetebilme,
-    - Favorilere ekleyebilme,
-    - Favorilerini yönetebilme ve filtreleyebilme imkanları
+    - Bölümleri sıralayabilme,
+    - Üniversiteler ve bölümler hakkında yorum yapabilme,
+    - Yorumunu silebilme, düzenleyebilme,
+    - Diğer yorum yapanlara cevap verebilme,
 - Admin için :  (Admin, kullanıcının imkanlarına da sahiptir. Aşağıda yazanlar ek özellikleridir.)
     - Yeni üniversite, bölüm ekleyebilme,
     - İstenilen üniversite ve bölümlerin silinmesi,
@@ -40,15 +38,8 @@ Bu uygulama `npx create-react-app` komutu ile oluşturulmuş bir React.js projes
 - Front-end: React
 - Back-end: ExpressJS
 - Veritabanı: MongoDB
-- Veri Modelleme: Mongoose
-- Kimlik Doğrulama, Güvenlik: PassportJS, JWT
-- Validasyon İşlemleri : YupJs
-- Component Kütüphanesi : Mui, Antd
 - Haberleşme: REST API, Axios, React Query
 - Sayfa Yönlendirme: React Router Dom
-- Form Yönetim Aracı : Formik
-- Test: Postman
-- IDE: Visual Studio Code
 - REST API Client: Postman
 - Versiyonlama: Git
 
@@ -57,47 +48,7 @@ Bu uygulama `npx create-react-app` komutu ile oluşturulmuş bir React.js projes
 - **Uygulamayı İndirmek İçin :**
 
 ```bash
-git clone https://github.com/SDU-Bilgisayar-Muhendisligi/PieCentralPizza.git
+git clone https://github.com/uniRehber/uniRehber.git
 ```
-
-## **Kütüphanelerin Yüklenmesi**
-
-Çalıştırmadan önce gerekli kütüphanelerin yüklenmesi gerekir. 
-
-- Uygulama içindeki Back-End klasörü içindeyken terminalde aşağıdaki komutu kullanarak bu kütüphaneleri yükleyin.
-
-```bash
-npm install
-```
-
-- Uygulama içindeki Front-End klasörü içindeyken terminalde aşağıdaki komutu kullanarak bu kütüphaneleri yükleyin.
-
-```bash
-npm install
-```
-
-## Uygulamanın Çalıştırılması
-
-- Uygulama içindeki Back-End klasörü içindeyken terminalde aşağıdaki komutu kullanarak Back-End’i çalıştırın.
-
-```bash
-npm start 
-```
-
-Back-End çalışınca terminal şöyle görünecek : 
-
-![backend](./photos/Readme/backend.png)
-
-- Şimdi de uygulama içindeki Front-End klasörü içindeyken terminalde aşağıdaki komutu kullanarak Front-End’i çalıştırın.
-
-```bash
-npm start
-```
-
-Front-End çalışınca terminal şöyle görünecek : 
-
-![frontend](./photos/Readme/frontend.png)
-
-Uygulama artık local’inizde çalışır halde.
-
-#
+## Teşekkürler
+Esra Aydoğan - Pınar Taylan 
