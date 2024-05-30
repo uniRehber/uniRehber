@@ -3,7 +3,11 @@ const test = (req, res) => {
 }
 
 const registerUser = (req, res) => {
-
+    try {
+        const {name, email, password} = req.body;
+    } catch (error) {
+        
+    }
 }
 
 module.exports = {
