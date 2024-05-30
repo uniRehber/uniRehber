@@ -6,6 +6,10 @@ import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz.js';
 import { Departments } from './pages/Departments/Departments.js';
 import { Universities } from './pages/Universities/Universities.js';
+import axios from 'axios';
+
+axios.defaults.baseURL='http://localhost:8000';
+axios.defaults.withCredentials=true;
 
 export const App = () => {
   return (
