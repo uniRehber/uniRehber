@@ -1,13 +1,38 @@
 import { useRef, useState, useEffect } from "react";
+import {Link} from 'react-router-dom';
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import axios from './api/axios';
+import axios from 'axios';
+import {toast} from 'react-hot-toast';
+
+// export default function RegisterPage(){
+//     const [data, setData] = useState({
+//         name : '',
+//         email: '',
+//         password:''
+//     })
+
+//     const registerUser = async (e) => {
+//         e.preventDefault();
+//         const {name, email, password} =data
+//         try {
+//             const {data} = await axios.post('./registerpage', {
+//                 name, email, password
+//             })
+//             if(data.error){
+//                 toast.error(data.error)
+//             }
+//         } catch (error) {
+            
+//         }
+//     }
+// }
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
-const REGISTER_URL = '/register';
+const REGISTER_URL = '/registerpage';
 
-const RegisterPage = () => {
+export const RegisterPage = () => {
     const userRef = useRef();
     const errRef = useRef();
 
@@ -172,7 +197,7 @@ const RegisterPage = () => {
                         Already registered?<br />
                         <span className="line">
                             {/*put router link here*/}
-                            <a href="#">Sign In</a>
+                            <Link to = '/loginpage'>Sign In</Link>
                         </span>
                     </p>
                 </section>

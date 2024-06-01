@@ -16,7 +16,7 @@ export const LoginPage = () => {
   };
 
   const handleRegisterClick = () => {
-    navigate('/register'); // Kayıt sayfasına yönlendirme
+    navigate('/registerpage'); // Kayıt sayfasına yönlendirme
   };
 
   return (
