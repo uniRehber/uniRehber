@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './Header.js';
-import { LoginPage } from './pages/Login/LoginPage.jsx';
-import { RegisterPage } from './pages/Register/RegisterPage.jsx';
+import  Login  from './pages/Login/Login.jsx';
+import  Register  from './pages/Register/Register.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz.js';
 import { Departments } from './pages/Departments/Departments.js';
@@ -23,8 +23,8 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/careerquiz" element={<CareerQuiz/>} />
-        <Route path="/loginpage" element={<LoginPage/>} />
-        <Route path='/registerpage' element={<RegisterPage/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path='/register' element={<Register/>} />
         <Route path="/departments" element={<Departments/>} />
         <Route path="/universities" element={<Universities/>} />
       </Routes>

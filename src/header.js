@@ -134,7 +134,7 @@ export const Header = () => {
                     <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
                 <div className="user-icons" >
-                    <Link to="/loginpage"><FaUser /></Link>
+                    <Link to="/login"><FaUser /></Link>
                 </div>
                   
                 <div className="burgerMenu" onClick={updateMenu}>
