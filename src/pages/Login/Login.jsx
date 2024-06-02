@@ -11,7 +11,9 @@ export default function Login() {
   });
 
   const loginUser = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
+    axios.get('/')
+    
     const { email, password } = data;
     try {
       const response = await axios.post('/login', { email, password });

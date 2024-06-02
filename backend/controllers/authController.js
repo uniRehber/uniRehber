@@ -1,4 +1,5 @@
-const User = require('../models/user')
+const User = require('../models/user');
+const { hashPassword, comparePassword } = require('../helpers/auth')
 
 const test = (req, res) => {
     res.json('test is working')
@@ -10,29 +11,34 @@ const registerUser = async(req, res) => {
         //isim girilmiş mi kontrol eder
         if(!name) {
             return res.json({
-                error: 'Bu alan zorunludur!'
+                error: 'Bu alan zorunludur!',
             })
         };
         //Parola güçlü mü kontrol edilir
         if(!password || password.length < 6) {
             return res.json({
-                error: 'Parola en az 6 karakterden oluşmalıdır!'
+                error: 'Parola en az 6 karakterden oluşmalıdır!',
             })
         };
         //Mail kontrol
         const exist = await User.findOne({email});
         if(exist) {
             return res.json({
-                error: 'Bu mail adresine sahip bir kullanıcı zaten var.'
+                error: 'Bu mail adresine sahip bir kullanıcı zaten var.',
             })
         }
 
+        const hashedPassword = await hashPassword(password)
+
+        //veritabanında kullanıcı oluşturur
         const user = await User.create({
-            name, email, password
+            name, 
+            email, 
+            password: hashedPassword,
         })
 
         return res.json(user)
-        
+
     } catch (error) {
         console.log(error)
     }
