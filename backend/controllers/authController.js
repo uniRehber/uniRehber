@@ -4,7 +4,7 @@ const { hashPassword, comparePassword } = require('../helpers/auth')
 const test = (req, res) => {
     res.json('test is working')
 }
-
+/*********************REGISTER ENDPOINT**************************/ 
 const registerUser = async(req, res) => {
     try {
         const {name, email, password} = req.body;
@@ -44,7 +44,37 @@ const registerUser = async(req, res) => {
     }
 }
 
+/*********************LOGIN ENDPOINT**************************/ 
+const loginUser = async(req, res) => {
+    try {
+        const {email, password} = req.body;
+        //Kullanıcı var mı kontrol edilir
+        const user = await User.findOne({email});
+        if(!user){
+            return res.json({
+                error: 'Böyle bir kullanıcı bulunamadı :('
+            })
+        }
+
+        //Parola doğru mu ontrol edilir
+        const match = await comparePassword(password, user.password)
+        if(match){
+            //parolalar eşleşirse:
+            res.json('parola doğru!')
+        }
+        if(!match){
+            res.json({
+                //Parolalar eşleşmezse:
+                error: 'Parola hatalı!'
+            })
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 module.exports = {
     test,
-    registerUser
+    registerUser,
+    loginUser
 }

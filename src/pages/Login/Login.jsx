@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './LoginPage.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import {toast} from 'react-hot-toast'
 
 export default function Login() {
   const navigate = useNavigate();
@@ -12,17 +13,18 @@ export default function Login() {
 
   const loginUser = async (e) => {
     e.preventDefault()
-    axios.get('/')
     
-    const { email, password } = data;
+    const { email, password } = data
     try {
-      const response = await axios.post('/login', { email, password });
-      if (response.data.error) {
-        // Hata durumunda bir mesaj gösterme
-        console.error(response.data.error);
+      const data = await axios.post('/login', { 
+        email, 
+        password
+      });
+      if (data.error) {
+        toast.error(data.error)
       } else {
-        // Başarılı giriş durumunda kullanıcıyı yönlendirme
-        navigate('/home');
+        setData({});
+        navigate('/')
       }
     } catch (error) {
       console.error('Login error:', error);
