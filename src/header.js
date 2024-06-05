@@ -22,8 +22,8 @@ export const Header = () => {
                     <li><Link to="/">Ana Sayfa</Link></li>
                     <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
-                <div className="user-icons">
-                    <Link to="/loginpage"><FaUser /></Link>
+                <div className="user-icons" >
+                    <Link to="/login"><FaUser /></Link>
                 </div>
                   
                 <div className="burgerMenu" onClick={updateMenu}>
