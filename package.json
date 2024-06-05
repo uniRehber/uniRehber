@@ -16,12 +16,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
-<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "cheerio": "^1.0.0-rc.12",
     "font-awesome": "^4.7.0",
-=======
->>>>>>> 825dbcb7353da63afd9e1c15c30b29a26447a78b
     "history": "^5.3.0",
     "jquery": "^3.7.1",
     "mongodb": "^6.6.0",
