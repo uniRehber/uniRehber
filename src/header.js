@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import logo from './image/kepLogo.png';
 import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
-import './Header.css'; // CSS dosyasını buradan import edin.
+import './Header.css'; 
 
 export const Header = () => {
-    
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     
     const updateMenu = () => {
@@ -15,14 +14,15 @@ export const Header = () => {
     return (
         <div className="header-container">  
             <div className="logo-container">
-                <img src={logo} alt="logo"/>
+                {/* Resme alt metin ekleniyor */}
+                <img src={logo} alt="ÜniRehber" />
             </div>
             <nav className="menu-container">
                 <ul id="my-custom-list">
                     <li><Link to="/">Ana Sayfa</Link></li>
                     <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
-                <div className="user-icons" >
+                <div className="user-icons">
                     <Link to="/loginpage"><FaUser /></Link>
                 </div>
                   
