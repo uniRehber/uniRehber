@@ -13,7 +13,10 @@ mongoose.connect(process.env.MONGO_URL, {
 .catch((err) => console.log('Database not connected!', err));
 
 
-app.use(cors());
+app.use(cors({
+    credentials:true,
+    origin: 'http://localhost:3000'
+}));
 
 // Middleware
 app.use(express.json());
