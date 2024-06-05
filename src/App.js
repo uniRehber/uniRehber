@@ -5,7 +5,7 @@ import { LoginPage } from './pages/Login/LoginPage.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz/CareerQuiz.js';
 import { Departments } from './pages/Departments/Departments.js';
-import { Universities } from './pages/Universities/Universities.js';
+import Universities, { UniversityDetails }  from './pages/Universities/Universities.js';
 import { Results } from './pages/CareerQuiz/Results.js';
 
 export const App = () => {
@@ -20,6 +20,7 @@ export const App = () => {
         <Route path="/loginpage" element={<LoginPage/>} />
         <Route path="/departmens" element={<Departments/>} />
         <Route path="/universities" element={<Universities/>} />
+        <Route path="/university/:name" element={<UniversityDetails />} />
       </Routes>
     </Router>
     </div>
