@@ -15,15 +15,14 @@ export default function Register() {
         e.preventDefault();
         const { name, email, password } = data;
         try {
-            const {data} = await axios.post('/register', {
-                name, email, password
-            });
-            if (data.error) { 
-                toast.error(data.error)
+            const response = await axios.post('/register', { name, email, password });
+            const result = response.data;
+            if (result.error) { 
+                toast.error(result.error);
             } else {
-                setData({});
-                toast.success('Kayıt başarılı')
-                navigate('/login')
+                setData({ name: '', email: '', password: '' });
+                toast.success('Kayıt başarılı');
+                navigate('/login');
             }
         } catch (error) {
             console.error('Axios request error:', error);
@@ -39,17 +38,34 @@ export default function Register() {
             toast.error('Kayıt işlemi sırasında bir hata oluştu');
         }
     };
-    
 
     return (
         <div>
             <form onSubmit={registerUser}>
                 <label>İsim</label>
-                <input type="text" placeholder="kullanıcı adı..." value={data.name} onChange={(e) => setData({ ...data, name: e.target.value })}></input>
+                <input 
+                    type="text" 
+                    placeholder="kullanıcı adı..." 
+                    value={data.name} 
+                    onChange={(e) => setData({ ...data, name: e.target.value })}
+                    required
+                />
                 <label>Eposta</label>
-                <input type="email" placeholder="eposta_adresi@mail.com..." value={data.email} onChange={(e) => setData({ ...data, email: e.target.value })}></input>
+                <input 
+                    type="email" 
+                    placeholder="eposta_adresi@mail.com..." 
+                    value={data.email} 
+                    onChange={(e) => setData({ ...data, email: e.target.value })}
+                    required
+                />
                 <label>Parola</label>
-                <input type="password" placeholder="parola..." value={data.password} onChange={(e) => setData({ ...data, password: e.target.value })}></input>
+                <input 
+                    type="password" 
+                    placeholder="parola..." 
+                    value={data.password} 
+                    onChange={(e) => setData({ ...data, password: e.target.value })}
+                    required
+                />
                 <button type="submit">Kaydol</button>
             </form>
         </div>
