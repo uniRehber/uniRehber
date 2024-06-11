@@ -63,13 +63,12 @@ const loginUser = async (req, res) => {
         // Parola doğru mu kontrol edilir
         const match = await comparePassword(password, user.password);
         if (match) {
-            res.json({ 
+            return res.json({ 
                 message: 'Giriş başarılı', 
                 user: { id: user._id, name: user.name, email: user.email } 
             });
-            // // parolalar eşleşirse:
-            // return res.json('parola doğru!');
         }
+
         // Parolalar eşleşmezse:
         return res.status(400).json({
             error: 'Parola hatalı!',
@@ -81,6 +80,39 @@ const loginUser = async (req, res) => {
         });
     }
 };
+
+// const loginUser = async (req, res) => {
+//     try {
+//         const { email, password } = req.body;
+//         // Kullanıcı var mı kontrol edilir
+//         const user = await User.findOne({ email });
+//         if (!user) {
+//             return res.status(400).json({
+//                 error: 'Böyle bir kullanıcı bulunamadı :(',
+//             });
+//         }
+
+//         // Parola doğru mu kontrol edilir
+//         const match = await comparePassword(password, user.password);
+//         if (match) {
+//             res.json({ 
+//                 message: 'Giriş başarılı', 
+//                 user: { id: user._id, name: user.name, email: user.email } 
+//             });
+//             // // parolalar eşleşirse:
+//             // return res.json('parola doğru!');
+//         }
+//         // Parolalar eşleşmezse:
+//         return res.status(400).json({
+//             error: 'Parola hatalı!',
+//         });
+//     } catch (error) {
+//         console.log(error);
+//         return res.status(500).json({
+//             error: 'Giriş işlemi sırasında bir hata oluştu',
+//         });
+//     }
+// };
 
 const getUser = async (req, res) => {
     try {

@@ -5,7 +5,7 @@ const {test, registerUser, loginUser, getUser} = require('../controllers/authCon
 
 
 
-router.get('/',test)
+router.get('/', test)
 router.post('/register', registerUser)
 router.post('/login', loginUser)
 router.get('/users/:id', getUser);
