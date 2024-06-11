@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
 import logo from './image/kepLogo.png';
-import { Link } from "react-router-dom";
+import { Link , useNavigate} from "react-router-dom";
 import { FaUser } from "react-icons/fa";
+
 
 
 const StyledHeader = styled.div`
@@ -106,16 +107,22 @@ const StyledHeader = styled.div`
         border-radius: 0.2rem;
     }
     .user-icons{
-        color: white;
-        font-size : 35px;
+        ${'' /* color: white;
+        font-size : 25px;
         position: absolute;
         transform: translateY(-50%);
         right: 150px;
-        top : 58px;
+        top : 58px; */}
+        color: white;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 `;
 
 export const Header = () => {
+    const navigate = useNavigate();
     
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     
@@ -134,7 +141,8 @@ export const Header = () => {
                     <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
                 <div className="user-icons" >
-                    <Link to="/login"><FaUser /></Link>
+                    {/* <Link to="/login"><FaUser /></Link> */}
+                    <button onClick={() => navigate('/login')}><FaUser /></button>
                 </div>
                   
                 <div className="burgerMenu" onClick={updateMenu}>

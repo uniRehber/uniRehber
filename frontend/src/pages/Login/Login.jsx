@@ -45,6 +45,8 @@ export default function Login() {
         <input type="password" placeholder="parola..." value={data.password} onChange={(e) => setData({ ...data, password: e.target.value })}></input>
         <button type="submit">Giriş Yap</button>
       </form>
+      <button onClick={() => navigate('/register')}>Kayıt Ol</button>
+
     </div>
   );
 }
