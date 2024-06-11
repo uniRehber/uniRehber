@@ -63,8 +63,12 @@ const loginUser = async (req, res) => {
         // Parola doğru mu kontrol edilir
         const match = await comparePassword(password, user.password);
         if (match) {
-            // parolalar eşleşirse:
-            return res.json('parola doğru!');
+            res.json({ 
+                message: 'Giriş başarılı', 
+                user: { id: user._id, name: user.name, email: user.email } 
+            });
+            // // parolalar eşleşirse:
+            // return res.json('parola doğru!');
         }
         // Parolalar eşleşmezse:
         return res.status(400).json({
@@ -78,8 +82,24 @@ const loginUser = async (req, res) => {
     }
 };
 
+const getUser = async (req, res) => {
+    try {
+        const user = await User.findById(req.params.id).select('-password');
+        if (!user) {
+            return res.status(404).json({ error: 'Kullanıcı bulunamadı' });
+        }
+        res.json(user);
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ error: 'Sunucu hatası' });
+    }
+};
+
+
 module.exports = {
     test,
     registerUser,
     loginUser,
+    getUser,
 };
+
