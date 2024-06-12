@@ -1,0 +1,649 @@
+
+[
+    {
+        "id": 1,
+        "soru": "Bir tarlanın yanından geçerken özellikle ürüne dikkat etmek"
+    },
+    {
+        "id": 2,
+        "soru": "Bozulan elektronik aletleri tamir etmek"
+    },
+    {
+        "id": 3,
+        "soru": "Akıl danışılabilecek bir kişi olmak"
+    },
+    {
+        "id": 4,
+        "soru": "Müzeleri gezmek"
+    },
+    {
+        "id": 5,
+        "soru": "Kitap okumak"
+    },
+    {
+        "id": 6,
+        "soru": "Modern yaşamın problemlerini araştırmak"
+    },
+    {
+        "id": 7,
+        "soru": "Uluslararası konferanslara katılmak"
+    },
+    {
+        "id": 8,
+        "soru": "İnsan vücudunun işleyişini incelemek"
+    },
+    {
+        "id": 9,
+        "soru": "'Milyarder olma sanatı' adlı kitabı okumak"
+    },
+    {
+        "id": 10,
+        "soru": "Matematiksel hesaplara ilgi duymak"
+    },
+    {
+        "id": 11,
+        "soru": "Çiftlik hayvanlarına ilgi duymak"
+    },
+    {
+        "id": 12,
+        "soru": "El sanatları sergilerini gezmek"
+    },
+    {
+        "id": 13,
+        "soru": "Seyredilen polisiye filmlerinin sonucunu tahmin etmek"
+    },
+    {
+        "id": 14,
+        "soru": "Pul veya benzeri koleksiyonlar yapmak"
+    },
+    {
+        "id": 15,
+        "soru": "Gazetelerdeki köşe yazılarını okumak"
+    },
+    {
+        "id": 16,
+        "soru": "Televizyonda açık oturum yönetmek"
+    },
+    {
+        "id": 17,
+        "soru": "Yabancı dilden kitapları kendi dilime çevirmek"
+    },
+    {
+        "id": 18,
+        "soru": "Sağlık kuruluşlarında çalışmak"
+    },
+    {
+        "id": 19,
+        "soru": "Parayı dövize çevirerek saklamak"
+    },
+    {
+        "id": 20,
+        "soru": "Bilgisayarda özel programlar kodlamak"
+    },
+    {
+        "id": 21,
+        "soru": "Sebze-meyve yetiştirmek"
+    },
+    {
+        "id": 22,
+        "soru": "Evdeki eski mobilyaları onarmak"
+    },
+    {
+        "id": 23,
+        "soru": "Liderlerin hayat hikayelerini okumak"
+    },
+    {
+        "id": 24,
+        "soru": "Antika eşyalara ilgi duymak"
+    },
+    {
+        "id": 25,
+        "soru": "Ünlü şairlerden birinin tüm eserlerini okumak"
+    },
+    {
+        "id": 26,
+        "soru": "İnsan davranışlarının nedenini araştırmak"
+    },
+    {
+        "id": 27,
+        "soru": "Turistlerle konuşmaya çalışmak"
+    },
+    {
+        "id": 28,
+        "soru": "Hasta insanlara yardım etmek"
+    },
+    {
+        "id": 29,
+        "soru": "Enflasyonun nedenlerini araştırmak"
+    },
+    {
+        "id": 30,
+        "soru": "Sayısal bilgi gerektiren bulmacalar çözmek"
+    },
+    {
+        "id": 31,
+        "soru": "Yabani hayvanlarla ilgili resimleri biriktirmek"
+    },
+    {
+        "id": 32,
+        "soru": "Bir binanın mimari özelliklerini incelemek"
+    },
+    {
+        "id": 33,
+        "soru": "Bir hayır kurumu için para toplamak"
+    },
+    {
+        "id": 34,
+        "soru": "Türk sanat müziği, klasik müzik ya da pop müzikten hoşlanmak"
+    },
+    {
+        "id": 35,
+        "soru": "Halkın gelenek ve inançlarının nedenlerini incelemek"
+    },
+    {
+        "id": 36,
+        "soru": "İnsanlardaki psikolojik sorunların sebeplerini incelemek"
+    },
+    {
+        "id": 37,
+        "soru": "Yeni duyduğu yabancı bir kelime için sözlüğe bakmak"
+    },
+    {
+        "id": 38,
+        "soru": "Alınan ilaçların prospektüsünü okumak"
+    },
+    {
+        "id": 39,
+        "soru": "Ekonomi dergilerini okumak"
+    },
+    {
+        "id": 40,
+        "soru": "Ev, apartman ve benzeri yapıların projelerini çizmek"
+    },
+    {
+        "id": 41,
+        "soru": "Modern çiftlik yöntemleri hakkında yazılar okumak"
+    },
+    {
+        "id": 42,
+        "soru": "Güzel resim yapmak"
+    },
+    {
+        "id": 43,
+        "soru": "Okul tercihi yaparken arkadaşlarına yol göstermek"
+    },
+    {
+        "id": 44,
+        "soru": "Taklit yapmak"
+    },
+    {
+        "id": 45,
+        "soru": "Televizyondaki kültür sanat programlarını izlemek"
+    },
+    {
+        "id": 46,
+        "soru": "Gazetelerdeki 'sorunlarınıza çözümler' türündeki yazıları okumak"
+    },
+
+    {
+        "id": 47,
+        "soru": "Yabancı ülkeleri merak etmek"
+    },
+    {
+        "id": 48,
+        "soru": "Laboratuarda deney yapmak"
+    },
+    {
+        "id": 49,
+        "soru": "Borsa ile ilgilenmek"
+    },
+    {
+        "id": 50,
+        "soru": "Bir işletmenin muhasebesini tutmak"
+    },
+    {
+        "id": 51,
+        "soru": "Ormanda tatil yapmak"
+    },
+    {
+        "id": 52,
+        "soru": "Olumsuz biteceği tahmin edilen bir işte bile sonuna kadar sabretmek"
+    },
+    {
+        "id": 53,
+        "soru": "Siyasi parti çalışmalarına katılmak"
+    },
+    {
+        "id": 54,
+        "soru": "Sanat galerisi gezmek"
+    },
+    {
+        "id": 55,
+        "soru": "Tarihi olay ve kişileri incelemek"
+    },
+    {
+        "id": 56,
+        "soru": "Dernek, vakıf gibi hayır kurumlarında çalışmak"
+    },
+    {
+        "id": 57,
+        "soru": "Dil öğrenmenin pratik yollarını araştırmak"
+    },
+    {
+        "id": 58,
+        "soru": "Ölmek üzere olan bir hastaya suni teneffüs yapmak"
+    },
+    {
+        "id": 59,
+        "soru": "Döviz kurlarını takip etmek"
+    },
+    {
+        "id": 60,
+        "soru": "Bilim teknik dergilerini okumak"
+    },
+    {
+        "id": 61,
+        "soru": "Başka ülkelerin iklim yapıları hakkında bilgi edinmek"
+    },
+    {
+        "id": 62,
+        "soru": "Çocuklara pratik oyuncaklar yapmak"
+    },
+    {
+        "id": 63,
+        "soru": "Televizyondaki açık oturum programlarını izlemek"
+    },
+    {
+        "id": 64,
+        "soru": "El becerisi kermeslerini gezmek"
+    },
+    {
+        "id": 65,
+        "soru": "Televizyondan ya da internetten günlük haberleri takip etmek"
+    },
+    {
+        "id": 66,
+        "soru": "İnsanları suça iten nedenleri araştırmak, bunlarla ilgili yazılar okumak veya yazmak"
+    },
+    {
+        "id": 67,
+        "soru": "Turistlere rehberlik etmek"
+    },
+    {
+        "id": 68,
+        "soru": "Sağlık alanındaki buluşları takip etmek"
+    },
+    {
+        "id": 69,
+        "soru": "Reklamları izlemek"
+    },
+    {
+        "id": 70,
+        "soru": "Keşif ve icatlarla ilgilenmek"
+    },
+    {
+        "id": 71,
+        "soru": "Deniz dibini ve suları araştırmak"
+    },
+    {
+        "id": 72,
+        "soru": "Halı ve kilim mağazalarının vitrinlerine bakmak"
+    },
+    {
+        "id": 73,
+        "soru": "Bir başkasına yapılan haksızlığa karşı çıkmak"
+    },
+    {
+        "id": 74,
+        "soru": "Gezilerde güzel ve kaliteli fotoğraflar çekmek"
+    },
+    {
+        "id": 75,
+        "soru": "Olayların neden ve sonuçlarını merak etmek"
+    },
+    {
+        "id": 76,
+        "soru": "Cezaevinde tutuklu olan bir arkadaşını ziyaret etmek"
+    },
+    {
+        "id": 77,
+        "soru": "Güçlü bir hafızaya sahip olmak"
+    },
+    {
+        "id": 78,
+        "soru": "Hastanede yatan yakınlarını sık sık ziyaret etmek"
+    },
+    {
+        "id": 79,
+        "soru": "İnsanları etkilemenin yollarını öğrenmek"
+    },
+    {
+        "id": 80,
+        "soru": "Elektronik cihazların aslında nasıl çalıştığını araştırmak"
+    },
+    {
+        "id": 81,
+        "soru": "Değişik çiçek cinslerine ilgi duymak"
+    },
+    {
+        "id": 82,
+        "soru": "Evdeki eşyaların yerleştirilmesinde önerilerde bulunmak"
+    },
+    {
+        "id": 83,
+        "soru": "Münazaralara katılmak"
+    },
+    {
+        "id": 84,
+        "soru": "Mizah dergileri okumak"
+    },
+    {
+        "id": 85,
+        "soru": "Çeşitli toplulukların sosyal yapılarını incelemek"
+    },
+    {
+        "id": 86,
+        "soru": "Gazetelerin ya da haber sitelerinin en az birini günlük olarak okumak"
+    },
+    {
+        "id": 87,
+        "soru": "Türkçe dersinde dilbilgisinde başarılı olmak"
+    },
+    {
+        "id": 88,
+        "soru": "Bir hastanın ameliyatını izlemek"
+    },
+    {
+        "id": 89,
+        "soru": "Zarar eden bir şirketi kara geçirmek"
+    },
+    {
+        "id": 90,
+        "soru": "Farklı bir yakıtla çalışacak otomobil yapmaya çalışmak"
+    },
+    {
+        "id": 91,
+        "soru": "Yağmurun ne zaman yağacağını önceden tahmin etmek"
+    },
+    {
+        "id": 92,
+        "soru": "Mobilya fuarını gezmek"
+    },
+    {
+        "id": 93,
+        "soru": "Miting vb. kitlesel gösterilere katılmak"
+    },
+    {
+        "id": 94,
+        "soru": "Saz, gitar, org, piyano, flüt vb. müzik aletlerinden birini severek kullanabilmek"
+    },
+    {
+        "id": 95,
+        "soru": "Söz söyleme ve ikna etme kabiliyetine sahip olmak"
+    },
+    {
+        "id": 96,
+        "soru": "Gazete bayisinin önünden geçerken gazete manşetlerine bakmak"
+    },
+    {
+        "id": 97,
+        "soru": "Farklı dillerdeki ortak kelimeleri bulmaya çalışmak"
+    },
+    {
+        "id": 98,
+        "soru": "İnsan ve hayvan hücrelerini incelemek"
+    },
+    {
+        "id": 99,
+        "soru": "Satın alacağı bir ürünün toptan fiyatını öğrenmek"
+    },
+    {
+        "id": 100,
+        "soru": "Astronomi ile ilgili kitaplar okumak"
+    },
+    {
+        "id": 101,
+        "soru": "Türkiye'nin yer altı zenginliklerini araştırmak"
+    },
+    {
+        "id": 102,
+        "soru": "Araba modelleriyle ilgilenmek"
+    },
+    {
+        "id": 103,
+        "soru": "Bir kurumun personel müdürü olmak"
+    },
+    {
+        "id": 104,
+        "soru": "Yüksek fiyatlara rağmen lüks bir lokantada yemek yemek"
+    },
+    {
+        "id": 105,
+        "soru": "Büyük bir yazar veya şair olmayı düşünmek"
+    },
+    {
+        "id": 106,
+        "soru": "İnsan ve evrenin niçin yaratıldığını düşünmek"
+    },
+    {
+        "id": 107,
+        "soru": "Gazete ve dergilerdeki dış politika yazılarını okumak"
+    },
+    {
+        "id": 108,
+        "soru": "Bilim müzesi gezmek"
+    },
+    {
+        "id": 109,
+        "soru": "Bir firmanın kâr/zarar hesaplarıyla ilgilenmek"
+    },
+    {
+        "id": 110,
+        "soru": "Bilim kurgu filmlerini izlemek"
+    },
+    {
+        "id": 111,
+        "soru": "Madenlerin ve petrolün nasıl oluştuğunu merak etmek"
+    },
+    {
+        "id": 112,
+        "soru": "Modayı izlemek"
+    },
+    {
+        "id": 113,
+        "soru": "Önemli bir konuda bilgi toplamak"
+    },
+    {
+        "id": 114,
+        "soru": "Sulu boya ile doğayla ilgili resimleri yapmak"
+    },
+    {
+        "id": 115,
+        "soru": "Eşya ve olayların ayrıntılarına dikkat etmek"
+    },
+    {
+        "id": 116,
+        "soru": "Alışveriş yaparken pazarlık yapmak"
+    },
+    {
+        "id": 117,
+        "soru": "Düşüncelerini söz ve yazı ile etkin bir şekilde aktarabilmek"
+    },
+    {
+        "id": 118,
+        "soru": "Şifalı suların ve kaplıcaların faydalarını araştırmak"
+    },
+    {
+        "id": 119,
+        "soru": "Serbest piyasa ekonomisine taraftar olmak"
+    },
+    {
+        "id": 120,
+        "soru": "Uzun süre masa başında çalışmaya sabretmek"
+    },
+    {
+        "id": 121,
+        "soru": "Sahilde yapılacak bir geziye katılmak istemek"
+    },
+    {
+        "id": 122,
+        "soru": "Kumaşlardaki desen ve renk uyumuyla yakından ilgilenmek"
+    },
+    {
+        "id": 123,
+        "soru": "Arkadaşlarla iyi ilişkiler içerisinde olmak"
+    },
+    {
+        "id": 124,
+        "soru": "Çamurdan figürler yapmak"
+    },
+    {
+        "id": 125,
+        "soru": "Bir derste veya oturumda karşıdakine konunun incelikleri hakkında sorular sormak"
+    },
+    {
+        "id": 126,
+        "soru": "Yeni anayasayı kitapçıdan satın almak"
+    },
+    {
+        "id": 127,
+        "soru": "Genel kültürü arttırıcı kitaplar okumak"
+    },
+    {
+        "id": 128,
+        "soru": "Kanser tedavisini merak etmek"
+    },
+    {
+        "id": 129,
+        "soru": "Giyimine özen göstermek"
+    },
+    {
+        "id": 130,
+        "soru": "Teknolojik gelişmeleri takip etmek"
+    },
+    {
+        "id": 130,
+        "soru": "Teknolojik yeniliklerle ilgilenmek"
+    },
+    {
+        "id": 131,
+        "soru": "Yüksek dağlara ve tepelere tırmanmak"
+    },
+    {
+        "id": 132,
+        "soru": "Beğenilen kitapları güzelce saklamak"
+    },
+    {
+        "id": 133,
+        "soru": "Oyunlarda komutan/lider olmak"
+    },
+    {
+        "id": 134,
+        "soru": "Oturduğu evin dekorasyonuna ve düzenine önem vermek"
+    },
+    {
+        "id": 135,
+        "soru": "Duygularını, düşüncelerini ve gördüklerini abartılı bir şekilde aktarmak"
+    },
+    {
+        "id": 136,
+        "soru": "Meclisin yasama ile ilgili çalışmalarını izlemek ya da takip etmek"
+    },
+    {
+        "id": 137,
+        "soru": "Yakın tarihe ait belgeleri çözmek"
+    },
+    {
+        "id": 138,
+        "soru": "Doğa gezilerinde şifalı bitkileri toplamak"
+    },
+    {
+        "id": 139,
+        "soru": "Güne programlı başlamak"
+    },
+    {
+        "id": 140,
+        "soru": "Bir işe başlamadan önce o işin planını ve programını yapmak"
+    },
+    {
+        "id": 141,
+        "soru": "Hasta ya da yaralı hayvanlara yardımcı olmak"
+    },
+    {
+        "id": 142,
+        "soru": "El becerisi gerektiren işleri titizlikle yapmak"
+    },
+    {
+        "id": 143,
+        "soru": "Toplum önünde etkili ve güzel konuşmak"
+    },
+    {
+        "id": 144,
+        "soru": "Sinemaya ve tiyatroya gitmek"
+    },
+    {
+        "id": 145,
+        "soru": "Dini konularda bilgi toplamak"
+    },
+    {
+        "id": 146,
+        "soru": "Siyahilerin tenlerinin neden koyu olduğunu araştırmak"
+    },
+    {
+        "id": 147,
+        "soru": "Bir kurumu temsilen görüşmelerde bulunmak"
+    },
+    {
+        "id": 148,
+        "soru": "Yabancı dildeki eşya isimlerini ezberlemek"
+    },
+    {
+        "id": 149,
+        "soru": "Randevularına zamanında gitmek"
+    },
+    {
+        "id": 150,
+        "soru": "Bilimsel formüllerin nasıl geliştirildiğini merak etmek"
+    },
+    {
+        "id": 151,
+        "soru": "Nükleer santrallerin yapılmasına karşı çıkmak"
+    },
+    {
+        "id": 152,
+        "soru": "Dokuma tezgahında çalışmak istemek"
+    },
+    {
+        "id": 153,
+        "soru": "Bir konuda araştırma ve inceleme yaptıktan sonra karar vermek"
+    },
+    {
+        "id": 154,
+        "soru": "Sanat müzelerini gezmek"
+    },
+    {
+        "id": 155,
+        "soru": "Çocuklara masal anlatmak"
+    },
+    {
+        "id": 156,
+        "soru": "Farklı ırkların ve dillerin nasıl oluştuğunu araştırmak"
+    },
+    {
+        "id": 157,
+        "soru": "Yabancı filmlere ilgi duymak"
+    },
+    {
+        "id": 158,
+        "soru": "Fakirlere yardım etmeyi sevmek"
+    },
+    {
+        "id": 159,
+        "soru": "İnsani ilişkilerde nazik olmak"
+    },
+    {
+        "id": 160,
+        "soru": "Kullanılan cihazların özelliklerini geliştirmek ve çoğaltmak"
+    }
+
+]
