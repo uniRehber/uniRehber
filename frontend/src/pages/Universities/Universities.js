@@ -9,8 +9,12 @@ const Universities = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('http://universities.hipolabs.com/search?country=Turkey');
-      setData(response.data);
+      try {
+        const response = await axios.get('http://localhost:8000/api/universities'); // Backend endpoint'inizi kullanın
+        setData(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
     };
     fetchData();
   }, []);

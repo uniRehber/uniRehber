@@ -3,13 +3,17 @@ const dotenv = require('dotenv').config();
 const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
+const { saveUniversities } = require('./controllers/universitiesController');
 
 // Veritabanı bağlantısı
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
-.then(() => console.log('Database connected.'))
+.then(() => {
+    console.log('Database connected.');
+    saveUniversities(); // Veritabanına verileri kaydetmek için 
+})
 .catch((err) => console.log('Database not connected!', err));
 
 
@@ -22,8 +26,13 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+
 // Routes
 app.use('/', require('./routes/authRoutes'));
 
 const port = 8000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
+
+// Veritabanına verileri kaydetmek için çağırın
+const { saveUniversities } = require('./controllers/universitiesController');
+saveUniversities();
