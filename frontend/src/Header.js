@@ -1,12 +1,4 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
-import logo from './image/kepLogo.png';
-import { Link } from "react-router-dom";
-import { FaUser } from "react-icons/fa";
-import './Header.css'; 
-
-export const Header = () => {
-=======
 import styled from 'styled-components';
 import logo from './image/kepLogo.png';
 import { Link , useNavigate} from "react-router-dom";
@@ -132,7 +124,6 @@ const StyledHeader = styled.div`
 export const Header = () => {
     const navigate = useNavigate();
     
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     
     const updateMenu = () => {
@@ -140,32 +131,18 @@ export const Header = () => {
     };
 
     return (
-<<<<<<< HEAD
-        <div className="header-container">  
-            <div className="logo-container">
-                {/* Resme alt metin ekleniyor */}
-                <img src={logo} alt="ÜniRehber" />
-            </div>
-            <nav className="menu-container">
-                <ul id="my-custom-list">
-=======
         <StyledHeader>  
             <div className="logo-container">
                 <img src={logo} alt="logo"/>
             </div>
             <nav className="menu-container">
                 <ul> 
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
                     <li><Link to="/">Ana Sayfa</Link></li>
                     <li><Link to="/careerquiz">Tercih Robotu</Link></li>
                 </ul>
                 <div className="user-icons" >
-<<<<<<< HEAD
-                    <Link to="/login"><FaUser /></Link>
-=======
                     {/* <Link to="/login"><FaUser /></Link> */}
                     <button onClick={() => navigate('/login')}><FaUser /></button>
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
                 </div>
                   
                 <div className="burgerMenu" onClick={updateMenu}>
@@ -185,16 +162,8 @@ export const Header = () => {
                     </div>
                 </div>
             </nav>
-<<<<<<< HEAD
-        </div>
-    );
-};
-
-export default Header;
-=======
         </StyledHeader>
     );
 };
 
 export default Header;
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
