@@ -4,21 +4,13 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Universities.css';
 
-<<<<<<< HEAD
-export const Universities = () => {
-=======
 const Universities = () => {
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
   const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-<<<<<<< HEAD
-        const response = await axios.get('http://universities.hipolabs.com/search?country=Turkey');
-=======
         const response = await axios.get('http://localhost:8000/api/universities'); // Backend endpoint'inizi kullanın
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -26,6 +18,21 @@ const Universities = () => {
     };
     fetchData();
   }, []);
+
+  const addUniversity = async (university) => {
+    try {
+      const response = await axios.post('http://localhost:8000/api/university', university);
+      console.log('Added University:', response.data);
+    } catch (error) {
+      console.error('Error adding university:', error);
+    }
+  };
+
+  addUniversity({
+    name: 'Süleyman Demirel Üniversitesi',
+    country: 'Turkey',
+    web_pages: ['https://w3.sdu.edu.tr']
+  });
 
   return (
     <div>
@@ -40,8 +47,6 @@ const Universities = () => {
   );
 };
 
-<<<<<<< HEAD
-=======
 export const UniversityDetails = ({ match }) => {
   const { name } = match.params;
   const [university, setUniversity] = useState(null);
@@ -67,5 +72,4 @@ export const UniversityDetails = ({ match }) => {
   );
 };
 
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
 export default Universities;

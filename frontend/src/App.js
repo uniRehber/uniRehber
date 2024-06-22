@@ -1,3 +1,4 @@
+
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './Header.js';
@@ -7,8 +8,7 @@ import  Register  from './pages/Register/Register.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz/CareerQuiz.js';
 import { Departments } from './pages/Departments/Departments.js';
-import { Universities } from './pages/Universities/Universities.js';
-import { UniversityDetails } from './pages/Universities/UniversityDetails.js';
+import Universities, { UniversityDetails }  from './pages/Universities/Universities.js';
 import { Results } from './pages/CareerQuiz/Results.js';
 import axios from 'axios';
 import { Toaster } from 'react-hot-toast';

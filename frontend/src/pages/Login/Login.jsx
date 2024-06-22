@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import './LoginPage.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-<<<<<<< HEAD
-import {toast} from 'react-hot-toast'
-=======
 import { toast } from 'react-hot-toast';
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,24 +12,6 @@ export default function Login() {
   });
 
   const loginUser = async (e) => {
-<<<<<<< HEAD
-    e.preventDefault()
-    
-    const { email, password } = data
-    try {
-      const data = await axios.post('/login', { 
-        email, 
-        password
-      });
-      if (data.error) {
-        toast.error(data.error)
-      } else {
-        setData({});
-        navigate('/')
-      }
-    } catch (error) {
-      console.error('Login error:', error);
-=======
     e.preventDefault();
     
     const { email, password } = data;
@@ -55,7 +33,6 @@ export default function Login() {
     } catch (error) {
       console.error('Login error:', error);
       toast.error('Giriş işlemi sırasında bir hata oluştu');
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
     }
   };
 
@@ -68,11 +45,6 @@ export default function Login() {
         <input type="password" placeholder="parola..." value={data.password} onChange={(e) => setData({ ...data, password: e.target.value })}></input>
         <button type="submit">Giriş Yap</button>
       </form>
-<<<<<<< HEAD
-    </div>
-  );
-}
-=======
       <button onClick={() => navigate('/register')}>Kayıt Ol</button>
 
     </div>
@@ -130,4 +102,3 @@ export default function Login() {
 //     </div>
 //   );
 // }
->>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2
