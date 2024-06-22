@@ -33,6 +33,6 @@ app.use('/', require('./routes/authRoutes'));
 const port = 8000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 
-// Veritabanına verileri kaydetmek için çağırın
-const { saveUniversities } = require('./controllers/universitiesController');
-saveUniversities();
+// // Veritabanına verileri kaydetmek için çağırın
+// const { saveUniversities } = require('./controllers/universitiesController');
+// saveUniversities();
