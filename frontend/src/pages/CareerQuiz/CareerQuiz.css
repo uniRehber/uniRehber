@@ -1,5 +1,6 @@
 /* Genel stil ayarları */
 body {
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
@@ -68,3 +69,73 @@ body {
 
 
 
+=======
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sayfa içeriği */
+  .career-quiz {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    background-color: rgb(213, 211, 223);
+    margin-bottom: 30px; /* Başlık ve açıklama arasına boşluk ekleyelim */
+  }
+  
+  .career-quiz h1 {
+    font-size: 24px;
+    color: #19283a;
+    margin-bottom: 20px;
+  }
+  
+  .career-quiz p {
+    font-size: 16px;
+    color: #292525;
+    margin-bottom: 30px;
+    
+  }
+  
+  /* Sorular bölümü */
+  .sorular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(250, 246, 246);
+  }
+  
+  .soru {
+    display: flex; 
+    align-items: center; /* Dikey hizalamayı ortala */
+    background-color: rgb(248, 246, 246);
+  }
+  
+  .soru p {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  .tamamla-bolumu {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tamamla-bolumu button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  
+  
+>>>>>>> 1d6c7f0c7c900880ff8347b077fd34bc16337ec2

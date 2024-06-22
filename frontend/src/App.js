@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './Header.js';
 import  Login  from './pages/Login/Login.jsx';
+import Profile from './pages/Profile.js';
 import  Register  from './pages/Register/Register.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz/CareerQuiz.js';
@@ -27,6 +28,7 @@ export const App = () => {
         <Route path="/careerquiz" element={<CareerQuiz/>} />
         <Route path="/careerquiz/results" element={<Results/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/profile/:id" element={<Profile />} />
         <Route path='/register' element={<Register/>} />
         <Route path="/departments" element={<Departments/>} />
         <Route path="/universities" element={<Universities/>} />
