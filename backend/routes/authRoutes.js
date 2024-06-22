@@ -1,18 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const cors = require('cors');
-const {test, registerUser, loginUser} = require('../controllers/authController')
+const { test, registerUser, loginUser, getUser } = require('../controllers/authController');
+const { getUniversities, getUniversityByName } = require('../controllers/universitiesController');
 
-//middleware
-router.use(
-    cors({
-        credentials:true,
-        oerigin: 'http://localhost:3000'
-    })
-)
+// Auth routes
+router.get('/', test);
+router.post('/register', registerUser);
+router.post('/login', loginUser);
+router.get('/users/:id', getUser);
 
-router.get('/',test)
-router.post('/register', registerUser)
-router.post('/login', loginUser)
+// University routes
+router.get('/universities', getUniversities);
+router.get('/university/:name', getUniversityByName);
 
-module.exports = router
+module.exports = router;
