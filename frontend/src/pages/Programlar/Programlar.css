@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.program {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.program img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; /* Resmi alan içine sığdır */
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.program h2 {
+    margin: 0;
+    color: #555;
+}
+
+.program p {
+    margin: 10px 0 0 0;
+    color: #777;
+}
+
+/* Özel resim stilleri */
+.mevlana-img {
+    border: 2px solid #4CAF50;
+}
+
+.farabi-img {
+    border: 2px solid #2196F3;
+}
+
+.erasmus-img {
+    border: 2px solid #FF5722;
+}

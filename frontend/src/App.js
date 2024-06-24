@@ -12,6 +12,7 @@ import Universities, { UniversityDetails }  from './pages/Universities/Universit
 import { Results } from './pages/CareerQuiz/Results.js';
 import axios from 'axios';
 import { Toaster } from 'react-hot-toast';
+import Programlar from './pages/Programlar/Programlar.js';
 
 //backend iletişimi
 axios.defaults.baseURL='http://localhost:8000';
@@ -33,6 +34,8 @@ export const App = () => {
         <Route path="/departments" element={<Departments/>} />
         <Route path="/universities" element={<Universities/>} />
         <Route path="/university/:name" element={<UniversityDetails />} />
+        <Route path='/programlar' element={<Programlar/>} />
+
       </Routes>
     </Router>
     </div>
