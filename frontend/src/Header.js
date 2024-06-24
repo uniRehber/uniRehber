@@ -152,13 +152,13 @@ export const Header = () => {
                 </div>
                 <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>
                     <div>
-                        <Link to="/universities">Üniversiteler</Link>
+                    <button onClick={() => navigate('/universities')}>Üniversiteler</button>
                     </div>
                     <div>
-                        <Link to="/departmens">Bölümler</Link>
+                    <button onClick={() => navigate('/departments')}>Bölümler</button>
                     </div>
                     <div>
-                        <Link to="/programlar">Programlar</Link>
+                    <button onClick={() => navigate('/programlar')}>Programlar</button>
                     </div>
                 </div>
             </nav>

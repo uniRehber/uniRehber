@@ -30,7 +30,7 @@ h1 {
 .program img {
     width: 150px;
     height: 150px;
-    object-fit: contain; /* Resmi alan içine sığdır */
+    object-fit: cover;
     margin-right: 20px;
     border-radius: 10px;
 }
@@ -55,5 +55,6 @@ h1 {
 }
 
 .erasmus-img {
+    object-fit: cover;
     border: 2px solid #FF5722;
 }
