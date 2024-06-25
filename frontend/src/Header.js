@@ -152,10 +152,10 @@ export const Header = () => {
                 </div>
                 <div className={`menu ${isMenuClicked ? 'visible' : 'hidden'}`}>
                     <div>
-                        <Link to="/universities">Üniversiteler</Link>
+                        <Link to="/university">Üniversiteler</Link>
                     </div>
                     <div>
-                        <Link to="/departmens">Bölümler</Link>
+                        <Link to="/departments">Bölümler</Link>
                     </div>
                     <div>
                         <Link to="/programlar">Programlar</Link>

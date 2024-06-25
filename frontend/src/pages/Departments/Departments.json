@@ -1,0 +1,514 @@
+{
+    "sayısal": {
+        "Elektrik - Elektronik Mühendisliği Bölümü": [
+            "Koç Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi"
+        ],
+        "Bilgisayar Mühendisliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Koç Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi"
+        ],
+        "Endüstri Mühendisliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Koç Üniversitesi",
+            "İstanbul Teknik Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi"
+        ],
+        "Makine Mühendisliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Koç Üniversitesi"
+        ],
+        "İnşaat Mühendisliği Bölümü": [
+            "Boğaziçi Üniversitesi"
+        ],
+        "Kimya Mühendisliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "İstanbul Teknik Üniversitesi"
+        ],
+        "Yazılım Mühendisliği Bölümü": [
+            "İzmir Ekonomi Üniversitesi",
+            "Yaşar Üniversitesi",
+            "Bahçeşehir Üniversitesi",
+            "İstanbul Aydın Üniversitesi",
+            "Işık Üniversitesi",
+            "Beykent Üniversitesi",
+            "Maltepe Üniversitesi",
+            "Atılım Üniversitesi",
+            "İstanbul Sabahattin Zaim Üniversitesi",
+            "Celal Bayar Üniversitesi"
+        ],
+        "Mekatronik Mühendisliği Bölümü": [
+            "Yıldız Teknik Üniversitesi",
+            "Bahçeşehir Üniversitesi"
+        ],
+        "Gıda Mühendisliği Bölümü": [
+            "Orta Doğu Teknik Üniversitesi",
+            "İstanbul Teknik Üniversitesi"
+        ],
+        "Matematik Bölümü": [
+            "Koç Üniversitesi",
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi"
+        ],
+        "İlköğretim Matematik Öğretmenliği Bölümü": [
+            "Erciyes Üniversitesi",
+            "Boğaziçi Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Necmettin Erbakan Üniversitesi",
+            "Bülent Ecevit Üniversitesi",
+            "Uludağ Üniversitesi",
+            "Gaziantep Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Yıldız Teknik Üniversitesi",
+            "Aksaray Üniversitesi"
+        ],
+        "Matematik Öğretmenliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Dicle Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Necmettin Erbakan Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Marmara Üniversitesi",
+            "Balıkesir Üniversitesi"
+        ],
+        "Fen Bilgisi Öğretmenliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Uludağ Üniversitesi",
+            "Hacettepe Üniversitesi"
+        ],
+        "Tıp Bölümü": [
+            "Koç Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "İstanbul Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi"
+        ],
+        "Diş Hekimliği Bölümü": [
+            "Yeditepe Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Ege Üniversitesi",
+            "Bezm-i Alem Vakıf Üniversitesi",
+            "Marmara Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "İstanbul Kemerburgaz Üniversitesi",
+            "Başkent Üniversitesi",
+            "Ondokuz Mayıs Üniversitesi"
+        ],
+        "Moleküler Biyoloji ve Genetik Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Koç Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Abdullah Gül Üniversitesi"
+        ],
+        "Eczacılık Bölümü": [
+            "Bezm-i Alem Vakıf Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Marmara Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Ege Üniversitesi",
+            "Çukurova Üniversitesi",
+            "Mersin Üniversitesi",
+            "Erciyes Üniversitesi",
+            "Ankara Üniversitesi"
+        ],
+        "Fizyoterapi ve Rehabilitasyon Bölümü": [
+            "Pamukkale Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "KTO Karatay Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "Hasan Kalyoncu Üniversitesi",
+            "Abant İzzet Baysal Üniversitesi",
+            "Bülent Ecevit Üniversitesi",
+            "İstanbul Bilgi Üniversitesi",
+            "Haliç Üniversitesi",
+            "Mustafa Kemal Üniversitesi"
+        ],
+        "Odyoloji Bölümü": [
+            "Hacettepe Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Başkent Üniversitesi",
+            "Üsküdar Üniversitesi",
+            "İnönü Üniversitesi"
+        ],
+        "Beslenme ve Diyetetik Bölümü": [
+            "İstanbul Bilgi Üniversitesi",
+            "KTO Karatay Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "Kırklareli Üniversitesi",
+            "Selçuk Üniversitesi",
+            "Namık Kemal Üniversitesi",
+            "İstanbul Bilim Üniversitesi",
+            "Hasan Kalyoncu Üniversitesi",
+            "Afyon Kocatepe Üniversitesi",
+            "Haliç Üniversitesi"
+        ],
+        "Veterinerlik Bölümü": [
+            "İstanbul Üniversitesi",
+            "Ankara Üniversitesi",
+            "Uludağ Üniversitesi",
+            "Adnan Menderes Üniversitesi",
+            "Balıkesir Üniversitesi",
+            "Selçuk Üniversitesi",
+            "Cumhuriyet Üniversitesi",
+            "Afyon Kocatepe Üniversitesi",
+            "Erciyes Üniversitesi",
+            "Kırıkkale Üniversitesi"
+        ],
+        "Mimarlık Bölümü": [
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "İstanbul Teknik Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "Abdullah Gül Üniversitesi",
+            "Yeditepe Üniversitesi"
+        ]
+    },
+
+    "eşit ağırlık": {
+        "İktisat (Ekonomi) Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Koç Üniversitesi"
+        ],
+        "İşletme Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Koç Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi"
+        ],
+        "Uluslararası Ticaret Bölümü": [
+            "KTO Karatay Üniversitesi",
+            "İstanbul Ticaret Üniversitesi",
+            "Gazi Üniversitesi",
+            "İstanbul Kültür Üniversitesi",
+            "Çankaya Üniversitesi",
+            "Okan Üniversitesi",
+            "İstanbul Aydın Üniversitesi",
+            "İstanbul Kemerburgaz Üniversitesi",
+            "Işık Üniversitesi",
+            "Beykent Üniversitesi"
+        ],
+        "Havacılık Yönetimi Bölümü": [
+            "Özyeğin Üniversitesi",
+            "Necmettin Erbakan Üniversitesi",
+            "Anadolu Üniversitesi",
+            "İstanbul Aydın Üniversitesi",
+            "Kocaeli Üniversitesi",
+            "İstanbul Ticaret Üniversitesi",
+            "Erciyes Üniversitesi"
+        ],
+        "İç Mimarlık ve Çevre Tasarımı Bölümü": [
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Özyeğin Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İzmir Ekonomi Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Bahçeşehir Üniversitesi",
+            "Gedik Üniversitesi"
+        ],
+        "Yönetim Bilişim Sistemleri Bölümü": [
+            "Özyeğin Üniversitesi",
+            "Kadir Has Üniversitesi",
+            "Sakarya Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Işık Üniversitesi",
+            "Beykent Üniversitesi",
+            "İstanbul Şehir Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Başkent Üniversitesi"
+        ],
+        "Maliye Bölümü": [
+            "Hacettepe Üniversitesi",
+            "Ankara Üniversitesi",
+            "Uludağ Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Gazi Üniversitesi"
+        ],
+        "Sağlık Yönetimi Bölümü": [
+            "Aksaray Üniversitesi",
+            "Afyon Kocatepe Üniversitesi",
+            "Mersin Üniversitesi",
+            "Gaziosmanpaşa Üniversitesi",
+            "İstanbul Bilim Üniversitesi",
+            "Muş Alparslan Üniversitesi",
+            "İstanbul Bilgi Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Marmara Üniversitesi",
+            "Kırklareli Üniversitesi"
+        ],
+        "Uluslararası Ticaret ve Lojistik Bölümü": [
+            "Kadir Has Üniversitesi",
+            "Hasan Kalyoncu Üniversitesi",
+            "Atılım Üniversitesi",
+            "Ondokuz Mayıs Üniversitesi",
+            "Çağ Üniversitesi",
+            "Toros Üniversitesi",
+            "Bursa Teknik Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "Nişantaşı Üniversitesi",
+            "Yeni Yüzyıl Üniversitesi"
+        ],
+        "Sınıf Öğretmenliği Bölümü": [
+            "Çukurova Üniversitesi",
+            "Ege Üniversitesi",
+            "Karadeniz Teknik Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Gazi Üniversitesi",
+            "Ankara Üniversitesi",
+            "Gaziantep Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Balıkesir Üniversitesi"
+        ],
+        "Psikoloji Bölümü": [
+            "Kadir Has Üniversitesi",
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Koç Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi"
+        ],
+        "Hukuk Bölümü": [
+            "Galatasaray Üniversitesi",
+            "Koç Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Ankara Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi"
+        ],
+        "Siyaset Bilimi ve Uluslararası İlişkiler Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Bahçeşehir Üniversitesi"
+        ],
+        "Uluslararası İlişkiler Bölümü": [
+            "Koç Üniversitesi",
+            "Galatasaray Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi"
+        ],
+        "Felsefe Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Koç Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi"
+        ],
+        "Sosyal Hizmet Bölümü": [
+            "KTO Karatay Üniversitesi",
+            "İstanbul 29 Mayıs Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Üsküdar Üniversitesi",
+            "Ankara Üniversitesi",
+            "Adnan Menderes Üniversitesi",
+            "Selçuk Üniversitesi",
+            "Necmettin Erbakan Üniversitesi"
+        ],
+        "Sosyoloji Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Galatasaray Üniversitesi",
+            "Koç Üniversitesi"
+        ],
+        "Rehberlik ve Psikolojik Danışmanlık Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Marmara Üniversitesi",
+            "Niğde Üniversitesi"
+        ],
+        "Siyaset Bilimi ve Kamu Yönetimi Bölümü": [
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi"
+        ],
+        "Kamu Yönetimi": [
+            "Yeditepe Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Marmara Üniversitesi",
+            "Karadeniz Teknik Üniversitesi",
+            "Ordu Üniversitesi",
+            "Trakya Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "Selçuk Üniversitesi",
+            "Abant İzzet Baysal Üniversitesi",
+            "Atatürk Üniversitesi"
+        ]
+    },
+    "sözel": {
+        "Sosyal Bilgiler Öğretmenliği Bölümü": [
+            "Dokuz Eylül Üniversitesi",
+            "Recep Tayyip Erdoğan Üniversitesi",
+            "Kastamonu Üniversitesi",
+            "Sinop Üniversitesi",
+            "Cumhuriyet Üniversitesi",
+            "Ege Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Uludağ Üniversitesi",
+            "Süleyman Demirel Üniversitesi",
+            "Yıldız Teknik Üniversitesi"
+        ],
+        "Coğrafya Bölümü": [
+            "Marmara Üniversitesi",
+            "Ankara Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "Gaziantep Üniversitesi",
+            "Ondokuz Mayıs Üniversitesi",
+            "Ege Üniversitesi",
+            "Niğde Üniversitesi"
+        ],
+        "Türk Dili ve Edebiyatı Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İstanbul 29 Mayıs Üniversitesi",
+            "İstanbul Şehir Üniversitesi",
+            "Fatih Sultan Mehmet Vakıf Üniversitesi",
+            "Ege Üniversitesi"
+        ],
+        "Tarih Bölümü": [
+            "KTO Karatay Üniversitesi",
+            "Boğaziçi Üniversitesi",
+            "İstanbul 29 Mayıs Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İstanbul Sabahattin Zaim Üniversitesi",
+            "Koç Üniversitesi",
+            "İstanbul Şehir Üniversitesi",
+            "Yeditepe Üniversitesi"
+        ],
+        "Sinema ve Televizyon Bölümü": [
+            "İstanbul Kemerburgaz Üniversitesi",
+            "İstanbul Bilgi Üniversitesi",
+            "Bahçeşehir Üniversitesi",
+            "Mimar Sinan Güzel Sanatlar Üniversitesi",
+            "İstanbul Şehir Üniversitesi",
+            "Beykent Üniversitesi",
+            "İstanbul Kültür Üniversitesi",
+            "Anadolu Üniversitesi"
+        ],
+        "Gastronomi ve Mutfak Sanatları Bölümü": [
+            "Yeditepe Üniversitesi",
+            "Balıkesir Üniversitesi",
+            "Özyeğin Üniversitesi",
+            "İstanbul Bilgi Üniversitesi",
+            "Anadolu Üniversitesi",
+            "Mersin Üniversitesi",
+            "İstanbul Aydın Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "Gazi Üniversitesi",
+            "Dokuz Eylül Üniversitesi"
+        ],
+        "Halkla İlişkiler ve Reklamcılık Bölümü": [
+            "İstanbul Medipol Üniversitesi",
+            "Atılım Üniversitesi",
+            "Yaşar Üniversitesi",
+            "Anadolu Üniversitesi",
+            "İzmir Ekonomi Üniversitesi",
+            "İstanbul Ticaret Üniversitesi",
+            "Beykent Üniversitesi",
+            "Sakarya Üniversitesi"
+        ],
+        "Radyo, Televizyon ve Sinema Bölümü": [
+            "Kadir Has Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Ankara Üniversitesi",
+            "Marmara Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Gazi Üniversitesi"
+        ],
+        "Görsel İletişim Tasarımı Bölümü": [
+            "Kadir Has Üniversitesi",
+            "TOBB Ekonomi ve Teknoloji Üniversitesi",
+            "İstanbul Bilgi Üniversitesi",
+            "İzmir Ekonomi Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Işık Üniversitesi",
+            "Hasan Kalyoncu Üniversitesi",
+            "İstanbul Medipol Üniversitesi",
+            "Yaşar Üniversitesi",
+            "İstanbul Ticaret Üniversitesi"
+        ],
+        "Türkçe Öğretmenliği Bölümü": [
+            "Ondokuz Mayıs Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Balıkesir Üniversitesi",
+            "Akdeniz Üniversitesi",
+            "Celal Bayar Üniversitesi",
+            "Çanakkale Onsekiz Mart Üniversitesi",
+            "Fatih Sultan Mehmet Vakıf Üniversitesi",
+            "Ege Üniversitesi",
+            "Marmara Üniversitesi",
+            "Sakarya Üniversitesi"
+        ],
+        "Halkla İlişkiler ve Tanıtım Bölümü": [
+            "Yeditepe Üniversitesi",
+            "Marmara Üniversitesi",
+            "Kadir Has Üniversitesi",
+            "Başkent Üniversitesi",
+            "Ankara Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Ege Üniversitesi",
+            "Atatürk Üniversitesi",
+            "Gazi Üniversitesi",
+            "Akdeniz Üniversitesi"
+        ],
+        "Gazetecilik Bölümü": [
+            "Ankara Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Gazi Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Ege Üniversitesi",
+            "İstanbul Aydın Üniversitesi"
+        ]
+    },
+    "dil": {
+        "İngilizce Öğretmenliği Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "Orta Doğu Teknik Üniversitesi",
+            "Gazi Üniversitesi",
+            "Marmara Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "Yıldız Teknik Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Uludağ Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Akdeniz Üniversitesi"
+        ],
+        "Mütercim-Tercümanlık (İngilizce) Bölümü": [
+            "Hacettepe Üniversitesi",
+            "Atılım Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Haliç Üniversitesi"
+        ],
+        "İngiliz Dili ve Edebiyatı Bölümü": [
+            "Boğaziçi Üniversitesi",
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Yeditepe Üniversitesi",
+            "Yaşar Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "İstanbul Üniversitesi",
+            "İstanbul Şehir Üniversitesi",
+            "Çankaya Üniversitesi",
+            "Ege Üniversitesi"
+        ],
+        "Amerikan Kültürü ve Edebiyatı Bölümü": [
+            "İhsan Doğramacı Bilkent Üniversitesi",
+            "Hacettepe Üniversitesi",
+            "İstanbul Üniversitesi",
+            "Ege Üniversitesi",
+            "Ankara Üniversitesi",
+            "Başkent Üniversitesi",
+            "Dokuz Eylül Üniversitesi",
+            "Haliç Üniversitesi"
+        ]
+    }
+}

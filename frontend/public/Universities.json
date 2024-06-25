@@ -1,0 +1,1437 @@
+[
+    {
+      "name": "ABDULLAH GÜL ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Kayseri",
+      "website": "http://www.agu.edu.tr",
+      "address": "Barbaros Mahallesi Sümer Kampüsü Kocasinan-KAYSERİ"
+    },
+    {
+      "name": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "İstanbul",
+      "website": "http://www.acibadem.edu.tr",
+      "address": "İçerenköy Mah. Kayışdağı Cad. No:32 İçerenköy 34752 Ataşehir İstanbul"
+    },
+    {
+      "name": "ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Adana",
+      "website": "http://www.atu.edu.tr",
+      "address": "Balcalı Mahallesi, Çatalan Caddesi No:201/1 01250 Sarıçam/ADANA"
+    },
+    {
+      "name": "ADIYAMAN ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Adıyaman",
+      "website": "http://www.adiyaman.edu.tr/",
+      "address": "Adıyaman Üniversitesi, Altınşehir Mh. 3005 Sokak No:13 02040 ADIYAMAN"
+    },
+    {
+      "name": "AFYON KOCATEPE ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Afyonkarahisar",
+      "website": "http://www.aku.edu.tr",
+      "address": "Afyon Kocatepe Üniversitesi Rektörlüğü ANS Kampusü Gazlıgöl Yolu Üzeri AFYONKARAHİSAR"
+    },
+    {
+      "name": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Afyonkarahisar",
+      "website": "www.afsu.edu.tr",
+      "address": "Zafer Sağlık Külliyesi Dörtyol Mah. 2078.Sok No:3 AFYONKARAHİSAR"
+    },
+    {
+      "name": "AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ağrı",
+      "website": "http://www.agri.edu.tr",
+      "address": "Erzurum yolu 4 km 04100 Merkez / AĞRI"
+    },
+    {
+      "name": "AKDENİZ ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Antalya",
+      "website": "http://www.akdeniz.edu.tr",
+      "address": "Akdeniz Üniversitesi Kampüs Antalya"
+    },
+    {
+      "name": "AKSARAY ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Aksaray",
+      "website": "www.aksaray.edu.tr",
+      "address": "Bahçesaray Mah.68100 AKSARAY"
+    },
+    {
+      "name": "ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Antalya",
+      "website": "http://www.alanya.edu.tr/",
+      "address": "Kestel Mahallesi Üniversite Caddesi No:80 Alanya/ANTALYA"
+    },
+    {
+      "name": "ALANYA ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "Antalya",
+      "website": "http://www.alanyauniversity.edu.tr",
+      "address": "Cikcilli Beldesi, Saraybeleni Mahallesi, Saraybeleni Cad. No:7, PK 80 07400, Alanya, ANTALYA"
+    },
+    {
+      "name": "ALTINBAŞ ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "İstanbul",
+      "website": "http://www.altinbas.edu.tr/tr",
+      "address": "Mahmutbey, Dİlmenler Cd. No. 26 Bağcılar, İstanbul"
+    },
+    {
+      "name": "AMASYA ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Amasya",
+      "website": "http://www.amasya.edu.tr",
+      "address": "Akbilek Mah. Hakimiyet cad. Milli Hakimiyet Yerleşkesi No:4/3 PK: 05100 Merkez/AMASYA"
+    },
+    {
+      "name": "ANADOLU ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Eskişehir",
+      "website": "http://www.anadolu.edu.tr/",
+      "address": "Anadolu Üniversitesi Yunus Emre Kampusü, 26470 Tepebaşı/ESKİŞEHİR"
+    },
+    {
+      "name": "ANKARA BİLİM ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "Ankara",
+      "website": "www.ankarabilim.edu.tr",
+      "address": "Çamlıca Mah.Anadolu Bulv.No:16A/1 Yenimahalle Ankara"
+    },
+    {
+      "name": "ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ankara",
+      "website": "https://hacibayram.edu.tr",
+      "address": "Ankara Hacı Bayram Veli Üniversitesi Yüce Tepe Mahallesi 85.Cadde No.8 06570 Çankaya /ANKARA"
+    },
+    {
+      "name": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "Ankara",
+      "website": "www.ankaramedipol.edu.tr",
+      "address": "Hacı Bayram Mahallesi, Talatpaşa Blv. No:2 06050 Altındağ/Ankara"
+    },
+    {
+      "name": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ankara",
+      "website": "http://www.mgu.edu.tr",
+      "address": "Yukarı Dikmen Mah. Turan Güneş Bul. Neşet Ertaş Cad. No:4 Oran Ankara"
+    },
+    {
+      "name": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ankara",
+      "website": "http://www.asbu.edu.tr/",
+      "address": "Hükümet Meydanı No: 2 Ulus/ANKARA"
+    },
+    {
+      "name": "ANKARA ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ankara",
+      "website": "http://www.ankara.edu.tr",
+      "address": "Ankara Üniversitesi Rektörlüğü Tandoğan/ANKARA"
+    },
+    {
+      "name": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+      "type": "Devlet",
+      "city": "Ankara",
+      "website": "www.aybu.edu.tr",
+      "address": "Ankara Yıldırım Beyazıt Üniversitesi Esenboğa Külliyesi Dumlupınar Mahallesi Çubuk/Ankara"
+    },
+    {
+      "name": "ANTALYA BELEK ÜNİVERSİTESİ",
+      "type": "Vakıf",
+      "city": "Antalya",
+      "website": "www.belek.edu.tr",
+      "address": "Kadriye Mah Celal Bayar CAd No:5-6 Serik-Antalya 07525"
+    },
+    
+    {
+        "name": "ANTALYA BİLİM ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Antalya",
+        "website": "http://www.antalya.edu.tr/",
+        "address": "Çıplaklı Mah. Akdeniz Bulvarı No:290/A Döşemealtı / ANTALYA"
+    },
+    {
+        "name": "ARDAHAN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Ardahan",
+        "website": "http://www.ardahan.edu.tr",
+        "address": "Ardahan Üniversitesi Yenisey Kampüsü, Rektörlük Hizmet Binası, Çamlıçatak Mevkii, 75000, Merkez/Ardahan"
+    },
+    {
+        "name": "ARTVİN ÇORUH ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Artvin",
+        "website": "http://www.artvin.edu.tr",
+        "address": "Artvin Çoruh Üniversitesi Rektörlüğü Fidanlık Mah.Kapı Nu.110 08000 Seyitler Yerleşkesi-ARTVİN"
+    },
+    {
+        "name": "ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.adiguzel.edu.tr/",
+        "address": "Yenişehir Mahallesi Barajyolu Caddesi Çağlayan Sokak No:18 Ataşehir / İstanbul"
+    },
+    {
+        "name": "ATATÜRK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Erzurum",
+        "website": "http://www.atauni.edu.tr",
+        "address": "Atatürk Üniversitesi Rektörlüğü Yakutiye/Erzurum"
+    },
+    {
+        "name": "ATILIM ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.atilim.edu.tr",
+        "address": "Atılım Üniversitesi Kızılcaşar Mah. İncek Kampüsü Gölbaşı/İncek/ANKARA"
+    },
+    {
+        "name": "AVRASYA ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Trabzon",
+        "website": "http://www.avrasya.edu.tr",
+        "address": "Avrasya Üniversitesi Rektörlüğü Adnan Kahvesi Mah. Rize Caddesi Pelitli/TRABZON"
+    },
+    {
+        "name": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Aydın",
+        "website": "http://www.adu.edu.tr",
+        "address": "AYTEPE MEVKİ AYDIN"
+    },
+    {
+        "name": "BAHÇEŞEHİR ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.bahcesehir.edu.tr",
+        "address": "Çırağan Caddesi Osmanpaşa Mektebi Sokak No: 4-6 3453 Beşiktaş, İSTANBUL / TÜRKİYE"
+    },
+    {
+        "name": "BALIKESİR ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Balıkesir",
+        "website": "http://www.balikesir.edu.tr",
+        "address": "Balıkesir Üniversitesi Çağış Yerleşkesi (Bigadiç yolu üzeri 17. km) 10145, BALIKESİR"
+    },
+    {
+        "name": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Balıkesir",
+        "website": "http://www.bandirma.edu.tr",
+        "address": "Yeni Mh. Şehit Astsubay Mustafa Soner Varlık Cd. No:77 Bandırma/BALIKESİR"
+    },
+    {
+        "name": "BARTIN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bartın",
+        "website": "http://www.bartin.edu.tr/",
+        "address": "Bartın Üniversitesi Rektörlüğü Merkez/BARTIN"
+    },
+    {
+        "name": "BAŞKENT ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.baskent.edu.tr",
+        "address": "Bağlıca Kampüsü Fatih Sultan Mahallesi Eskişehir Yolu 18.km TR 06790 Etimesgut Ankara"
+    },
+    {
+        "name": "BATMAN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Batman",
+        "website": "http://www.batman.edu.tr",
+        "address": "Batı Raman 72100 Batman, Türkiye"
+    },
+    {
+        "name": "BAYBURT ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bayburt",
+        "website": "https://bayburt.edu.tr",
+        "address": "Dede Korkut Külliyesi 69000 / BAYBURT"
+    },
+    {
+        "name": "BEYKOZ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.beykoz.edu.tr",
+        "address": "Kavacık Mahallesi Orhan Veli Kanık Caddesi No:114 Kavacık Beykoz İstanbul"
+    },
+    {
+        "name": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.bezmialem.edu.tr/",
+        "address": "Adnan Menderes Bulvarı Vatan Cad. 34093 Fatih/İSTANBUL"
+    },
+    {
+        "name": "BILECIK ŞEYH EDEBALİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bilecik",
+        "website": "http://www.bilecik.edu.tr/",
+        "address": "Bilecik Şeyh Edebali Üniversitesi Rektörlüğü 11210 Merkez Bilecik"
+    },
+    {
+        "name": "BINGÖL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bingöl",
+        "website": "http://www.bingol.edu.tr/",
+        "address": "Selahaddin-i Eyyübi Mah. Üniversite Cad. No:1 BİNGÖL"
+    },
+    {
+        "name": "BIRUNİ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.biruni.edu.tr/",
+        "address": "10. Yıl Caddesi Protokol Yolu No: 45 (Eski Kozlu Mezarlığı altı, Silivrikapı ve Belgratkapı İett durakları arası) 34010 Topkapı İstanbul"
+    },
+    {
+        "name": "BITLIS EREN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bitlis",
+        "website": "http://www.beu.edu.tr/",
+        "address": "Rahva Yerleşkesi Beş Minare Mah. Ahmet Eren Bulvarı 13100 Merkez / Bitlis"
+    },
+    {
+        "name": "BOĞAZİÇİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.boun.edu.tr/",
+        "address": "Boğaziçi Üniversitesi 34342 Bebek/Istanbul Türkiye"
+    },
+    {
+        "name": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bolu",
+        "website": "http://www.ibu.edu.tr/",
+        "address": "Abant İzzet Baysal Üniversitesi Gölköy Kampüsü 14280 BOLU"
+    },
+    {
+        "name": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Burdur",
+        "website": "http://www.mehmetakif.edu.tr/",
+        "address": "İstiklal Yerleşkesi BURDUR"
+    },
+    {
+        "name": "BURSA TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bursa",
+        "website": "http://btu.edu.tr/",
+        "address": "Mimar Sinan Mahallesi Mimar Sinan Bulvarı Eflak Caddesi No:177 16310 Yıldırım/BURSA"
+    },
+    {
+        "name": "BURSA ULUDAĞ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Bursa",
+        "website": "http://www.uludag.edu.tr/",
+        "address": "Görükle Kampusu 16059 Nilüfer/BURSA"
+    },
+    {
+        "name": "ÇAĞ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Mersin",
+        "website": "http://www.cag.edu.tr/",
+        "address": "Adana-Mersin D 400 Karayolu Üzeri 33800 Yenice-Tarsus/MERSİN"
+    },
+    {
+        "name": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Çanakkale",
+        "website": "http://www.comu.edu.tr/",
+        "address": "Çanakkale Onsekiz Mart Üniversitesi, Terzioğlu Kampüsü, Rektörlük Binası , A Blok Merkez/ÇANAKKALE"
+    },
+    {
+        "name": "ÇANKAYA ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.cankaya.edu.tr/",
+        "address": "Çankaya Üniversitesi Merkez Kampüs : Eskişehir Yolu 29. Km Yukarıyurtçu Mahallesi, Mimar Sinan Caddesi No:4, 06790, Etimesgut / ANKARA"
+    },
+    {
+        "name": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Çankırı",
+        "website": "http://www.karatekin.edu.tr/",
+        "address": "Uluyazı Kampüsü Binası / Çankırı"
+    },
+    {
+        "name": "ÇUKUROVA ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Adana",
+        "website": "http://www.cu.edu.tr/",
+        "address": "Çukurova Üniversitesi Rektörlüğü 01330 Balcalı, Sarıçam / ADANA"
+    },
+    {
+        "name": "DEMİROĞLU BİLİM ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.demiroglu.bilim.edu.tr/",
+        "address": "Büyükdere Cad. No:120 Esentepe-Şişli İSTANBUL"
+    },
+    {
+        "name": "DİCLE ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Diyarbakır",
+        "website": "http://www.dicle.edu.tr/",
+        "address": "21280 Kıtılbil Mahallesi Sur / Diyarbakır"
+    },
+    {
+        "name": "DOĞUŞ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.dogus.edu.tr/",
+        "address": "Doğuş Üniversitesi Zeamet sk. 34722 Kadıköy/İstanbul"
+    },
+    {
+        "name": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "http://www.deu.edu.tr/",
+        "address": "Cumhuriyet Bulvarı No:144 Alsancak 35210 Konak/İZMİR"
+    },
+    {
+        "name": "DÜZCE ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Düzce",
+        "website": "http://www.duzce.edu.tr/",
+        "address": "Düzce Üniversitesi Rektörlüğü Genel Sekreterlik Beçi Kampüsü Merkez Düzce"
+    },{
+        "name": "EGE ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "http://www.ege.edu.tr",
+        "address": "Ege Üniversitesi Rektörlüğü Gençlik Caddesi No:12 PK.35040 Bornova / İzmir"
+    },
+    {
+        "name": "ERCİYES ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Kayseri",
+        "website": "http://www.erciyes.edu.tr",
+        "address": "Talas Yolu Melikgazi 38039 KAYSERİ"
+    },
+    {
+        "name": "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Erzincan",
+        "website": "http://www.erzincan.edu.tr",
+        "address": "Erzincan Binali Yıldırım Üniversitesi Rektörlüğü Yalnızbağ Yerleşkesi- Erzincan/Merkez"
+    },
+    {
+        "name": "ERZURUM TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Erzurum",
+        "website": "http://www.erzurum.edu.tr/",
+        "address": "ERZURUM TEKNİK ÜNİVERSİTESİ Ömer Nasuhi Bilmen Mah. Havaalanı Yolu Cad. No:53 YAKUTİYE/ERZURUM"
+    },
+    {
+        "name": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Eskişehir",
+        "website": "http://www.ogu.edu.tr",
+        "address": "Eskişehir Osmangazi Üniversitesi Meşelik Kampüsü Büyükdere Mahallesi Prof.Dr.Nabi AVCI Bulvarı No:4 26040 Eskişehir"
+    },
+    {
+        "name": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Eskişehir",
+        "website": "https://www.eskisehir.edu.tr/",
+        "address": "Eskişehir Teknik Üniversitesi İki Eylül Kampüsü 26555 Tepebaşı/ESKİŞEHİR"
+    },
+    {
+        "name": "FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.fsm.edu.tr",
+        "address": "Zeyrek Mah. Büyük karaman Cad. No:53 FATİH/ İSTANBUL"
+    },
+    {
+        "name": "FENERBAHÇE ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.fbu.edu.tr",
+        "address": "Atatürk Mah. Ataşehir Bulvarı Ertuğrul Gazi Sk. Metropol İstanbul E Blok, 34758 Ataşehir-İstanbul"
+    },
+    {
+        "name": "FIRAT ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Elazığ",
+        "website": "http://www.firat.edu.tr/",
+        "address": "Fırat Üniversitesi Rektörlüğü 23119 ELAZIĞ"
+    },
+    {
+        "name": "GALATASARAY ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.gsu.edu.tr",
+        "address": "Galatasaray Üniversitesi Çırağan Cad. No:36 34349 Ortaköy/İstanbul"
+    },
+    {
+        "name": "GAZİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Ankara",
+        "website": "http://gazi.edu.tr/",
+        "address": "Gazi Üniversitesi Rektörlüğü 06500 Teknikokullar / Ankara"
+    },
+    {
+        "name": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Gaziantep",
+        "website": "http://www.gibtu.edu.tr/",
+        "address": "Beştepe Mah. 192090 Nolu Cadde 6/1 27010 Şahinbey/Gaziantep"
+    },
+    {
+        "name": "GAZİANTEP ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Gaziantep",
+        "website": "http://www.gantep.edu.tr",
+        "address": "GAZİANTEP ÜNİVERSİTESİ REKTÖRLÜĞÜ"
+    },
+    {
+        "name": "GEBZE TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Kocaeli",
+        "website": "www.gtu.edu.tr",
+        "address": "Gebze Teknik Üniversitesi Rektörlüğü Cumhuriyet Mah. 2254 Sok. No:2 Gebze/KOCAELİ"
+    },
+    {
+        "name": "GİRESUN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Giresun",
+        "website": "http://www.giresun.edu.tr/",
+        "address": "Giresun Üniversitesi | Giresun"
+    },
+    {
+        "name": "GÜMÜŞHANE ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Gümüşhane",
+        "website": "http://www.gumushane.edu.tr",
+        "address": "Gümüşhane Üniversitesi Rektörlüğü Bağlarbaşı Mh. 29000, Merkez/GÜMÜŞHANE"
+    },
+    {
+        "name": "HACETTEPE ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Ankara",
+        "website": "http://hacettepe.edu.tr",
+        "address": "Hacettepe Üniversitesi Rektörlüğü Sıhhıye/ANKARA"
+    },
+    {
+        "name": "HAKKARİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Hakkari",
+        "website": "www.hakkari.edu.tr / www.hu.edu.tr",
+        "address": "Merzan Mah. Küçük Sanayi Sitesi arkası Merkez/HAKKARİ"
+    },
+    {
+        "name": "HALİÇ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.halic.edu.tr",
+        "address": "Sütlüce Mahallesi, İmrahor Caddesi, No:11, Beyoğlu, İstanbul"
+    },
+    {
+        "name": "HARRAN ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Şanlıurfa",
+        "website": "http://www.harran.edu.tr/",
+        "address": "Harran Üniversitesi Rektörlüğü Osmanbey Kampüsü Şanlıurfa"
+    },
+    {
+        "name": "HASAN KALYONCU ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Gaziantep",
+        "website": "www.hku.edu.tr",
+        "address": "Yeşilkent Mah. Havalimanı Yolu üzeri 8.km Şahinbey/GAZİANTEP"
+    },
+    {
+        "name": "HATAY MUSTAFA KEMAL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Hatay",
+        "website": "http://www.mku.edu.tr",
+        "address": "Alahan Tayfur Sökmen Kampüsü Dış kapı no:35 Adres No:3330417886 Alahan/Antakya/Hatay"
+    },
+    {
+        "name": "HİTİT ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Çorum",
+        "website": "http://www.hitit.edu.tr/",
+        "address": "Hitit Üniversitesi Kuzey Kampüsü Çevre Yolu Bulvarı PK:19030 ÇORUM"
+    },
+    {
+        "name": "IĞDIR ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Iğdır",
+        "website": "http://www.igdir.edu.tr",
+        "address": "Şehit Bülent Yurtseven Kampüsü/ IĞDIR"
+    },
+    {
+        "name": "ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Isparta",
+        "website": "https://isparta.edu.tr/",
+        "address": "Isparta uygulamalı Bilimler Üniversitesi Rektörlüğü, Bahçelievler Mah., 102. Cad., No:24, 32200, ISPARTA"
+    },
+    {
+        "name": "IŞIK ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.isikun.edu.tr/",
+        "address": "Işık Üniversitesi, Meşrutiyet Köyü, Üniversitesi Sok. No:2 ŞİLE/İSTANBUL"
+    },
+    {
+        "name": "İBN HALDUN ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.ihu.edu.tr",
+        "address": "Başak Mah. Ordu Cad. F-05 Blok No:3 P.K. 34480 Başakşehir/İST."
+    },
+    {
+        "name": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.bilkent.edu.tr/",
+        "address": "Üniversiteler Mahallesi 1609 Sokak No:10 06800 Bilkent / Ankara"
+    },
+    {
+        "name": "İNÖNÜ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Malatya",
+        "website": "http://www.inonu.edu.tr/",
+        "address": "İnönü Üniversitesi Kampüsü Elazığ Yolu 15. Km. 44280 MALATYA"
+    },
+    {
+        "name": "İSKENDERUN TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "Hatay",
+        "website": "www.iste.edu.tr",
+        "address": "İskenderun Teknik Üniversitesi Rektörlüğü Merkez Kampüs 31200 İskenderun/HATAY"
+    },
+    {
+        "name": "İSTANBUL 29 MAYIS ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.29mayis.edu.tr",
+        "address": "Elmalıkent Mah. Elmalıkent Cad. No:4 Ümraniye / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL AREL ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.arel.edu.tr",
+        "address": "İstanbul Arel Üniversitesi -Türkoba Mah. Erguvan Sokak No: 26/K Tepekent-B.Çekmece/İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL ATLAS ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.atlas.edu.tr",
+        "address": "Hamidiye Mahallesi Anadolu Caddesi No:40/2 Kağıthane/İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL AYDIN ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.aydin.edu.tr",
+        "address": "Florya Halit Aydın Kampüsü Beşyol Mah. İnönü Cad. No: 38 Sefaköy-Küçükçekmece/İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL BEYKENT ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.beykent.edu.tr",
+        "address": "Ayazağa Mahallesi, Hadım Koru Yolu Caddesi, No:19 Sarıyer/İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL BİLGİ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.bilgi.edu.tr",
+        "address": "Eski Silahtarağa Elektrik Santralı Kazım Karabekir Cad. No: 2/13 34060 Eyüpsultan İstanbul"
+    },
+    {
+        "name": "İSTANBUL ESENYURT ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.esenyurt.edu.tr",
+        "address": "Zafer Mah. Adile Naşit Bulvarı No:1 Esenyurt-İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL GALATA ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.galata.edu.tr",
+        "address": "Evliya Çelebi Mahallesi Meşrutiyet Caddesi No: 62 Tepebaşı/Beyoğlu/İstanbul"
+    },
+    {
+        "name": "İSTANBUL GEDİK ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.gedik.edu.tr",
+        "address": "Cumhuriyet Mahallesi İlkbahar Sokak No: 1 Yakacık 34876 Kartal İstanbul"
+    },
+    {
+        "name": "İSTANBUL GELİŞİM ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.gelisim.edu.tr",
+        "address": "Cihangir Mahallesi Şehit Jandarma Komando Er Hakan Öner Sk. No:1 Avcılar / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL KENT ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.kent.edu.tr",
+        "address": "Cihangir Mahallesi Sıraselviler Caddesi No:71 34433 Beyoğlu İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL KÜLTÜR ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.iku.edu.tr",
+        "address": "Ataköy Yerleşkesi, 34156 Bakırköy / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL MEDENİYET ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.medeniyet.edu.tr",
+        "address": "Dumlupınar mahallesi, D-100 Karayolu No:98 Kadıköy / İstanbul"
+    },
+    {
+        "name": "İSTANBUL MEDİPOL ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.medipol.edu.tr",
+        "address": "Kavacık Mah.Ekinciler Cad.No:19, 34840 Beykoz-İstanbul"
+    },
+    {
+        "name": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.nisantasi.edu.tr",
+        "address": "Maslak Mahallesi, Taşyoncası Sokak, No: 1V ve No:1Y Bina Kodu: 34481742 Sarıyer/İstanbul"
+    },
+    {
+        "name": "İSTANBUL OKAN ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.okan.edu.tr",
+        "address": "Okan Üniversitesi Tuzla Kampüsü, 34959 Akfırat - Tuzla / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL RUMELİ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.rumeli.edu.tr",
+        "address": "Yeni Mahalle Mah. Mehmet Silivrili Cad. No: 38/8 Posta Kodu 34570 SİLİVRİ-İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.izu.edu.tr/",
+        "address": "Halkalı Cad. No: 281 Halkalı - Küçükçekmece / İSTANBUL Posta Kodu: 34303"
+    },
+    {
+        "name": "İSTANBUL SAĞLIK VE SOSYAL BİLİMLER MESLEK YÜKSEKOKULU",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.issb.edu.tr",
+        "address": "Cankurtaran Mahallesi Kennedy Caddesi No:2 Ahırkapı Feneri Yanı Fatih İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.istun.edu.tr",
+        "address": "Sütlüce Kampüsü Sütlüce Mah. İmrahor Cad. No: 82 Beyoğlu – İstanbul"
+    },
+    {
+        "name": "İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.sisli.edu.tr",
+        "address": "Maslak Mah. Atatürk Oto Sanayi Sitesi 55. Sok. No:2 Sarıyer/ İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL TEKNİK ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.itu.edu.tr",
+        "address": "İTÜ Ayazağa Yerleşkesi yeni Rektörlük Binası Kat:2 MASLAK-SARIYER-İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL TİCARET ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.ticaret.edu.tr",
+        "address": "Örnektepe Mahallesi, İmrahor Caddesi No: 88/2 34445 Beyoğlu / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL TOPKAPI ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.topkapi.edu.tr",
+        "address": "Prof.Muammer Aksoy Cd. No: 10 Kazlıçeşme / İSTANBUL"
+    },
+    {
+        "name": "İSTANBUL ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.istanbul.edu.tr",
+        "address": "İSTANBUL ÜNİVERSİTESİ REKTÖRLÜK İSTANBUL UNIVERSITY RECTORATE İstanbul Üniversitesi, Beyazıt Yerleşkesi 34452 Beyazıt, İstanbul – Türkiye"
+    },
+    {
+        "name": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "https://iuc.edu.tr",
+        "address": "İstanbul Üniversitesi-Cerrahpaşa Rektörlüğü 34320 Avcılar/İstanbul"
+    },
+    {
+        "name": "İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.yeniyuzyil.edu.tr",
+        "address": "T.C. İstanbul Yeni Yüzyıl Üniversitesi Topkapı Dr. Azmi Ofluoğlu Yerleşkesi Maltepe Mahallesi, Yılanlı Ayazma Caddesi No:26, 34010 Cevizlibağ- Zeytinburnu / İSTANBUL"
+    },
+    {
+        "name": "İSTİNİYE ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.istinye.edu.tr",
+        "address": "İstinye Üniversitesi Topkapı Kampüsü, Maltepe Mah., Teyyareci Sami Sokak, No.3 Zeytinburnu, İstanbul, 34010"
+    },
+    {
+        "name": "İZMİR BAKIRÇAY ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "bakircay.edu.tr",
+        "address": "Seyrek Kampüsü/ Gazi Mustafa Kemal Mah.Kaynaklar Cad./ Seyrek/Menemen/İZMİR"
+    },
+    {
+        "name": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "http://www.idu.edu.tr",
+        "address": "Üçkuyular Mahallesi, Gürsel Aksel Bulvarı, No:14 35140 Karabağlar/İZMİR"
+    },
+    {
+        "name": "İZMİR EKONOMİ ÜNİVERSİTESİ",
+        "type": "Vakıf",
+        "city": "İzmir",
+        "website": "www.ieu.edu.tr",
+        "address": "SAKARYA CAD. NO:156 BALÇOVA/İZMİR"
+    },
+    {
+        "name": "İzmir Kâtip Çelebi Üniversitesi",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "http://www.ikc.edu.tr/",
+        "address": "İzmir Kâtip Çelebi Üniversitesi Çiğli Ana Yerleşkesi 35620 İZMİR"
+    },
+    {
+        "name": "İzmir Kavram Meslek Yüksekokulu",
+        "type": "Vakıf",
+        "city": "İzmir",
+        "website": "www.kavram.edu.tr",
+        "address": "Oğuzlar Mah. 1251/2 Sok. No:8 Konak/İzmir"
+    },
+    {
+        "name": "İzmir Tinaztepe Üniversitesi",
+        "type": "Vakıf",
+        "city": "İzmir",
+        "website": "www.tinaztepe.edu.tr",
+        "address": "Aydoğdu Mahallesi, 1267/1 Sk., No.4 35400 Buca/İzmir"
+    },
+    {
+        "name": "İzmir Yüksek Teknoloji Enstitüsü",
+        "type": "Devlet",
+        "city": "İzmir",
+        "website": "http://www.iyte.edu.tr/",
+        "address": "İzmir Yüksek Teknoloji Enstitüsü Gülbahçe Kampüsü Urla/İZMİR"
+    },
+    {
+        "name": "Kadir Has Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.khas.edu.tr",
+        "address": "Kadir Has Üniversitesi, Kadir Has Caddesi, Cibali / İSTANBUL 34083"
+    },
+    {
+        "name": "Kafkas Üniversitesi",
+        "type": "Devlet",
+        "city": "Kars",
+        "website": "http://www.kafkas.edu.tr",
+        "address": "Kafkas Üniversitesi Şehitler Mh. Turan Çelik Cd. Kombina Yolu Üzeri Merkez/KARS"
+    },
+    {
+        "name": "Kahramanmaraş İstiklal Üniversitesi",
+        "type": "Devlet",
+        "city": "Kahramanmaraş",
+        "website": "www.istiklal.edu.tr",
+        "address": "Kahramanmaraş İstiklal Üniversitesi Rektörlüğü, Menderes Mah. Cumhuriyet Bulvarı 46036 Sokak No:7 46060 Dulkadiroğlu/Kahramanmaraş"
+    },
+    {
+        "name": "Kahramanmaraş Sütçü İmam Üniversitesi",
+        "type": "Devlet",
+        "city": "Kahramanmaraş",
+        "website": "www.ksu.edu.tr",
+        "address": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü, Avşar Mah. Batı Çevreyolu Blv. No: 251/A 46040 - Onikişubat/Kahramanmaraş"
+    },
+    {
+        "name": "Kapadokya Üniversitesi",
+        "type": "Vakıf",
+        "city": "Nevşehir",
+        "website": "www.kapadokya.edu.tr",
+        "address": "Üniversite Meydanı No:2 Mustafapaşa Ürgüp/Nevşehir"
+    },
+    {
+        "name": "Karabük Üniversitesi",
+        "type": "Devlet",
+        "city": "Karabük",
+        "website": "http://www.karabuk.edu.tr/",
+        "address": "Karabük Üniversitesi Demir Çelik Kampüsü Balıklar Kaya Mevkii"
+    },
+    {
+        "name": "Karadeniz Teknik Üniversitesi",
+        "type": "Devlet",
+        "city": "Trabzon",
+        "website": "http://www.ktu.edu.tr",
+        "address": "Karadeniz Teknik Üniversitesi 61080 - Trabzon"
+    },
+    {
+        "name": "Karamanoğlu Mehmetbey Üniversitesi",
+        "type": "Devlet",
+        "city": "Karaman",
+        "website": "http://www.kmu.edu.tr",
+        "address": "Karamanoğlu Mehmetbey Üniversitesi, Yunus Emre Yerleşkesi, 70100 KARAMAN / TÜRKİYE"
+    },
+    {
+        "name": "Kastamonu Üniversitesi",
+        "type": "Devlet",
+        "city": "Kastamonu",
+        "website": "http://www.kastamonu.edu.tr/index.php/tr/",
+        "address": "Kastamonu Üniversitesi Rektörlüğü Kuzeykent Kampüsü Merkez/KASTAMONU"
+    },
+    {
+        "name": "Kayseri Üniversitesi",
+        "type": "Devlet",
+        "city": "Kayseri",
+        "website": "http://www.kayseri.edu.tr",
+        "address": "Mevlana Mah. 15 Temmuz Yerleşkesi Kümeevler Talas/KAYSERİ"
+    },
+    {
+        "name": "Kırıkkale Üniversitesi",
+        "type": "Devlet",
+        "city": "Kırıkkale",
+        "website": "http://kku.edu.tr",
+        "address": "Kırıkkale Üniversitesi Ankara Yolu 7. Km 71450 Yahşihan/Kırıkkale"
+    },
+    {
+        "name": "Kırklareli Üniversitesi",
+        "type": "Devlet",
+        "city": "Kırklareli",
+        "website": "http://www.klu.edu.tr/",
+        "address": "Cumhuriyet Mahallesi Kofcaz Yolu Kayalı Yerleşkesi Merkez-Kırklareli"
+    },
+    {
+        "name": "Kırşehir Ahi Evran Üniversitesi",
+        "type": "Devlet",
+        "city": "Kırşehir",
+        "website": "www.ahievran.edu.tr",
+        "address": "Bağbaşı Mah. Sahir Kurutluoğlu Cad. No: 100 Merkez/KIRŞEHİR"
+    },
+    {
+        "name": "Kilis 7 Aralık Üniversitesi",
+        "type": "Devlet",
+        "city": "Kilis",
+        "website": "www.kilis.edu.tr",
+        "address": "Mehmet Sanlı Mah. Doğan Güreş Paşa Bulvarı No.134 Merlez/KİLİS"
+    },
+    {
+        "name": "Kocaeli Sağlık ve Teknoloji Üniversitesi",
+        "type": "Vakıf",
+        "city": "Kocaeli",
+        "website": "www.kocaelisaglik.edu.tr",
+        "address": "Yeniköy Merkez Mh. Ilıca Cd. No:29 Başiskele/KOCAELİ"
+    },
+    {
+        "name": "Kocaeli Üniversitesi",
+        "type": "Devlet",
+        "city": "Kocaeli",
+        "website": "http://www.kocaeli.edu.tr/",
+        "address": "Umuttepe Merkez Yerleşkesi 41380 İzmit/KOCAELİ"
+    },
+    {
+        "name": "Koç Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.ku.edu.tr",
+        "address": "Koç Üniversitesi, Rumelifeneri Yolu, 34450, SARIYER, ISTANBUL"
+    },
+    {
+        "name": "Konya Gıda ve Tarım Üniversitesi",
+        "type": "Vakıf",
+        "city": "Konya",
+        "website": "http://www.gidatarim.edu.tr/",
+        "address": "Melikşah Mah. Beyşehir Cad. No:9 42080 Meram / KONYA"
+    },
+    {
+        "name": "Konya Teknik Üniversitesi",
+        "type": "Devlet",
+        "city": "Konya",
+        "website": "http://www.ktun.edu.tr/",
+        "address": "Akademi Mah. Yeni İstanbul Cad. No:235/1 Selçuklu/KONYA"
+    },
+    {
+        "name": "KTO Karatay Üniversitesi",
+        "type": "Vakıf",
+        "city": "Konya",
+        "website": "http://www.karatay.edu.tr",
+        "address": "KTO Karatay Üniversitesi Rektörlüğü Akabe Mah. Alaaddin Kap Cad. No: 130 Karatay/KONYA"
+    },
+    {
+        "name": "Kütahya Dumlupınar Üniversitesi",
+        "type": "Devlet",
+        "city": "Kütahya",
+        "website": "http://dpu.edu.tr",
+        "address": "Kütahya Dumlupınar Üniversitesi Evliya Çelebi Yerleşkesi Tavşanlı Yolu 10. km. KÜTAHYA"
+    },
+    {
+        "name": "Kütahya Sağlık Bilimleri Üniversitesi",
+        "type": "Devlet",
+        "city": "Kütahya",
+        "website": "http://www.ksbu.edu.tr/",
+        "address": "Alipaşa Mahallesi Fatih Sultan Mehmet Bulvarı No./22 Kütahya Merkez"
+    },
+    {
+        "name": "Lokman Hekim Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "www.lokmanhekim.edu.tr",
+        "address": "Söğütözü Mah. 2179. Cad. No:6 Çankaya Ankara"
+    },
+    {
+        "name": "Malatya Turgut Özal Üniversitesi",
+        "type": "Devlet",
+        "city": "Malatya",
+        "website": "www.ozal.edu.tr",
+        "address": "Alacakapı Mahallesi Kırkgöz Caddesi No:70 P.K. 44210 Battalgazi / MALATYA"
+    },
+    {
+        "name": "Maltepe Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.maltepe.edu.tr/",
+        "address": "Maltepe Üniversitesi Marmara Eğitim Köyü PK:34857 MALTEPE İSTANBUL"
+    },
+    {
+        "name": "Manisa Celal Bayar Üniversitesi",
+        "type": "Devlet",
+        "city": "Manisa",
+        "website": "www.cbu.edu.tr",
+        "address": "Şehit Prof. Dr. İlhan Varank Kampüsü 45140 - Yunusemre - MANİSA"
+    },
+    {
+        "name": "Mardin Artuklu Üniversitesi",
+        "type": "Devlet",
+        "city": "Mardin",
+        "website": "http://www.artuklu.edu.tr/",
+        "address": "Mardin Artuklu Üniversitesi Yenişehir Yerleşkesi, Diyarbakır Yolu Yenişehir Mardin"
+    },
+    {
+        "name": "Marmara Üniversitesi",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.marmara.edu.tr",
+        "address": "M.Ü.Göztepe Kampüsü Rektörlük Binası 34722 Kadıköy / İSTANBUL"
+    },
+    {
+        "name": "MEF Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.mef.edu.tr",
+        "address": "Ayazağa Cad. No.4 34396 Maslak - Sarıyer - İstanbul"
+    },
+    {
+        "name": "Mersin Üniversitesi",
+        "type": "Devlet",
+        "city": "Mersin",
+        "website": "http://www.mersin.edu.tr/idari/genel-sekreterlik",
+        "address": "Mersin Üniversitesi Çiftlikköy Kampusu Rektörlük Binası 33343 Yenişehir/MERSİN"
+    },
+    {
+        "name": "Mimar Sinan Güzel Sanatlar Üniversitesi",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "https://www.msgsu.edu.tr",
+        "address": "Meclis-i Mebusan Caddesi No: 24 Fındıklı 34427 İstanbul"
+    },
+    {
+        "name": "Mudanya Üniversitesi",
+        "type": "Vakıf",
+        "city": "Bursa",
+        "website": "https://mudanya.edu.tr",
+        "address": "Çağrışan Mah. 2029 Sk. No:2 16265 Mudanya/Bursa"
+    },
+    {
+        "name": "Muğla Sıtkı Koçman Üniversitesi",
+        "type": "Devlet",
+        "city": "Muğla",
+        "website": "http://www.mu.edu.tr/",
+        "address": "Muğla Sıtkı Koçman Üniversitesi Rektörlüğü 48000 Menteşe/MUĞLA"
+    },
+    {
+        "name": "Munzur Üniversitesi",
+        "type": "Devlet",
+        "city": "Tunceli",
+        "website": "www.munzur.edu.tr",
+        "address": "Aktuluk Mahallesi Üniversite Yerleşkesi Merkez/TUNCELİ"
+    },
+    {
+        "name": "Muş Alparslan Üniversitesi",
+        "type": "Devlet",
+        "city": "Muş",
+        "website": "www.alparslan.edu.tr",
+        "address": "Muş Alparslan Üniversitesi Kampusu, Rektörlük, Diyarbakır Yolu 7. km 49250- MUŞ"
+    },
+    {
+        "name": "Necmettin Erbakan Üniversitesi",
+        "type": "Devlet",
+        "city": "Konya",
+        "website": "http://www.erbakan.edu.tr",
+        "address": "Yaka Mah. Yeni Meram Cad. Kasım Halife Sok. No: 11 (A Blok) Posta Kodu: 42090 Meram / KONYA"
+    },
+    {
+        "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+        "type": "Devlet",
+        "city": "Nevşehir",
+        "website": "http://www.nevsehir.edu.tr/",
+        "address": "Nevşehir Hacı Bektaş Veli Üniversitesi Rektörlüğü 2000 Evler Mahallesi Zübeyde Hanım Cad. 50300 NEVŞEHİR"
+    },
+    {
+        "name": "Niğde Ömer Halisdemir Üniversitesi",
+        "type": "Devlet",
+        "city": "Niğde",
+        "website": "http://www.ohu.edu.tr/",
+        "address": "Niğde Ömer Halisdemir Üniversitesi Rektörlüğü Rektörlük Binası 2. Kat Merkez Yerleşke Bor Yolu Üzeri 51240 Merkez/NİĞDE"
+    },
+    {
+        "name": "Nuh Naci Yazgan Üniversitesi",
+        "type": "Vakıf",
+        "city": "Kayseri",
+        "website": "http://www.nny.edu.tr",
+        "address": "Erkilet Dere Mah. Kuzey Çevreyolu Nuh Naci Yazgan Üniversitesi Kocasinan/Kayseri"
+    },
+    {
+        "name": "Ondokuz Mayıs Üniversitesi",
+        "type": "Devlet",
+        "city": "Samsun",
+        "website": "http://www.omu.edu.tr/",
+        "address": "Ondokuz Mayıs Üniversitesi Rektörlük Binası Kurupelit Kampüsü, 55139 Atakum / SAMSUN"
+    },
+    {
+        "name": "Ordu Üniversitesi",
+        "type": "Devlet",
+        "city": "Ordu",
+        "website": "http://www.odu.edu.tr",
+        "address": "Cumhuriyet Yerleşkesi 52200 Altınordu/ORDU"
+    },
+    {
+        "name": "Orta Doğu Teknik Üniversitesi",
+        "type": "Devlet",
+        "city": "Ankara",
+        "website": "http://www.metu.edu.tr",
+        "address": "Orta Doğu Teknik Üniversitesi Üniversiteler Mah.Dumlupınar Blv.No:1 06800 Çankaya Ankara/TÜRKİYE"
+    },
+    {
+        "name": "Osmaniye Korkut Ata Üniversitesi",
+        "type": "Devlet",
+        "city": "Osmaniye",
+        "website": "http://www.osmaniye.edu.tr",
+        "address": "Karacaoğlan Yerleşkesi 80000 Merkez/OSMANİYE"
+    },
+    {
+        "name": "OSTİM Teknik Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "www.ostimteknik.edu.tr",
+        "address": "OSTİM Teknik Üniversitesi OSTİM, 06374 Ankara"
+    },
+    {
+        "name": "Özyeğin Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "www.ozyegin.edu.tr",
+        "address": "Nişantepe Mah. Orman Sok. No:34-36 Çekmeköy-İstanbul"
+    },
+    {
+        "name": "Pamukkale Üniversitesi",
+        "type": "Devlet",
+        "city": "Denizli",
+        "website": "http://www.pau.edu.tr",
+        "address": "Pamukkale Üniversitesi Rektörlüğü Kınıklı Yerleşkesi 20070 DENİZLİ"
+    },
+    {
+        "name": "Piri Reis Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.pirireis.edu.tr",
+        "address": "Postane Mahallesi, Eflatun Sk. No:8, 34940 Tuzla/İSTANBUL"
+    },
+    {
+        "name": "Recep Tayyip Erdoğan Üniversitesi",
+        "type": "Devlet",
+        "city": "Rize",
+        "website": "erdogan.edu.tr",
+        "address": "Recep Tayyip Erdoğan Üniversitesi Zihni Derin Yerleşkesi, Fener Mah. 53100 RİZE"
+    },
+    {
+        "name": "Sabancı Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.sabanciuniv.edu",
+        "address": "Sabancı Üniversite Orta Mah. Üniversite Caddesi No:27 34956 Orhanlı Tuzla İstanbul"
+    },
+    {
+        "name": "Sağlık Bilimleri Üniversitesi",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.sbu.edu.tr",
+        "address": "Mekteb-i Tıbbiye-i Şahane (Haydarpaşa) Külliyesi, Selimiye Mah. Tıbbiye Cad. No:38 34668 ÜSKÜDAR/İSTANBUL"
+    },
+    {
+        "name": "Sakarya Uygulamalı Bilimler Üniversitesi",
+        "type": "Devlet",
+        "city": "Sakarya",
+        "website": "www.subu.edu.tr",
+        "address": "Sakarya Uygulamalı Bilimler Üniversitesi Esentepe Kampüsü Serdivan / Sakarya"
+    },
+    {
+        "name": "Sakarya Üniversitesi",
+        "type": "Devlet",
+        "city": "Sakarya",
+        "website": "http://www.sakarya.edu.tr",
+        "address": "Sakarya Üniversitesi Esentepe Kampüsü 54187 Serdivan / SAKARYA"
+    },
+    {
+        "name": "Samsun Üniversitesi",
+        "type": "Devlet",
+        "city": "Samsun",
+        "website": "www.samsun.edu.tr",
+        "address": "Gürgenyatak Mahallesi Canik/SAMSUN"
+    },
+    {
+        "name": "Sanko Üniversitesi",
+        "type": "Vakıf",
+        "city": "Gaziantep",
+        "website": "http://www.sanko.edu.tr",
+        "address": "İncilipınar Mah. Gazi Muhtar Paşa Bulv. No:36 27090 Şehitkamil/ GAZİANTEP"
+    },
+    {
+        "name": "Selçuk Üniversitesi",
+        "type": "Devlet",
+        "city": "Konya",
+        "website": "http://www.selcuk.edu.tr/",
+        "address": "Alaaddin Keykubat Kampüsü, Akademi Mahallesi, Yeni İstanbul Caddesi No:369/1 42130 Selçuklu-KONYA"
+    },
+    {
+        "name": "Siirt Üniversitesi",
+        "type": "Devlet",
+        "city": "Siirt",
+        "website": "http://siirt.edu.tr",
+        "address": "Kezer Yerleşkesi Veysel Karani Mah. Üniversite Cad. No:1 56100 Merkez/SİİRT"
+    },
+    {
+        "name": "Sinop Üniversitesi",
+        "type": "Devlet",
+        "city": "Sinop",
+        "website": "http://www.sinop.edu.tr",
+        "address": "Korucuk Köyü Trafo Mahallesi No:36 57000 Sinop"
+    },
+    {
+        "name": "Sivas Bilim ve Teknoloji Üniversitesi",
+        "type": "Devlet",
+        "city": "Sivas",
+        "website": "http://www.sivas.edu.tr/",
+        "address": "Gültepe Mahallesi Mecnun Otyakmaz Caddesi No:1 Merkez/Sivas"
+    },
+    {
+        "name": "Sivas Cumhuriyet Üniversitesi",
+        "type": "Devlet",
+        "city": "Sivas",
+        "website": "http://www.cumhuriyet.edu.tr",
+        "address": "Cumhuriyet Üniversitesi, Yenişehşr Mah. Kayseri Caddesi 58140 Kampüs SİVAS"
+    },
+    {
+        "name": "Süleyman Demirel Üniversitesi",
+        "type": "Devlet",
+        "city": "Isparta",
+        "website": "http://www.sdu.edu.tr/",
+        "address": "Süleyman Demirel Üniversitesi Batı Yerleşkesi Rektörlük Binası 32260 Çünür / ISPARTA"
+    },
+    {
+        "name": "Şırnak Üniversitesi",
+        "type": "Devlet",
+        "city": "Şırnak",
+        "website": "http://www.sirnak.edu.tr",
+        "address": "Yeni Mahalle Cizre Caddesi Mehmet Emin Acar Kampüsü 73000 Şırnak - Türkiye"
+    },
+    {
+        "name": "Tarsus Üniversitesi",
+        "type": "Devlet",
+        "city": "Mersin",
+        "website": "www.tarsus.edu.tr",
+        "address": "Takbaş Mah. Kartaltepe sokak 33400 Tarsus / MERSİN"
+    },
+    {
+        "name": "TED Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.tedu.edu.tr",
+        "address": "TED Üniversitesi, Ziya Gökalp Caddesi No.48 06420, Kolej Çankaya ANKARA"
+    },
+    {
+        "name": "Tekirdağ Namık Kemal Üniversitesi",
+        "type": "Devlet",
+        "city": "Tekirdağ",
+        "website": "http://www.nku.edu.tr",
+        "address": "Namık Kemal Mah. Kampüs Cad. No:1 Merkez-TEKİRDAĞ"
+    },
+    {
+        "name": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "www.etu.edu.tr",
+        "address": "SÖĞÜTÖZÜ CADDESİ NO:43 ÇANKAYA/ANKARA"
+    },
+    {
+        "name": "Tokat Gaziosmanpaşa Üniversitesi",
+        "type": "Devlet",
+        "city": "Tokat",
+        "website": "www.gop.edu.tr",
+        "address": "Gaziosmanpaşa Üniversitesi Rektörlüğü Taşlıçiftlik Yerleşkesi TOKAT"
+    },
+    {
+        "name": "Toros Üniversitesi",
+        "type": "Vakıf",
+        "city": "Mersin",
+        "website": "www.toros.edu.tr",
+        "address": "Bahçelievler Kampüsü 1857 Sokak No:12 33140 Yenişehir MERSİN"
+    },
+    {
+        "name": "Trabzon Üniversitesi",
+        "type": "Devlet",
+        "city": "Trabzon",
+        "website": "www.trabzon.edu.tr",
+        "address": "TRABZON ÜNİVERSİTESİ REKTÖRLÜĞÜ Söğütlü Mahallesi Adnan Kahveci Bulvarı 61335 – Akçaabat-Trabzon / TÜRKİYE"
+    },
+    {
+        "name": "Trakya Üniversitesi",
+        "type": "Devlet",
+        "city": "Edirne",
+        "website": "http://www.trakya.edu.tr/",
+        "address": "Trakya Üniversitesi Rektörlüğü 22030 Balkan Yerleşkesi / EDİRNE"
+    },
+    {
+        "name": "Türk Hava Kurumu Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.thk.edu.tr",
+        "address": "Bahçekapı Mahallesi Okul Sokak No:11 Etimesgut / ANKARA"
+    },
+    {
+        "name": "Türk-Alman Üniversitesi",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.tau.edu.tr/",
+        "address": "Şahinkaya Cad. No: 86 Beykoz/İSTANBUL"
+    },
+    {
+        "name": "Ufuk Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "http://www.ufuk.edu.tr",
+        "address": "Ufuk Üniversitesi Rektörlüğü Kızılcaşar Mahallesi İncek Bulvarı 06836 İncek/Gölbaşı/ANKARA"
+    },
+    {
+        "name": "Uşak Üniversitesi",
+        "type": "Devlet",
+        "city": "Uşak",
+        "website": "http://www.usak.edu.tr",
+        "address": "Uşak Üniversitesi Rektörlüğü 1 Eylül Kampüsü 64200 - UŞAK"
+    },
+    {
+        "name": "Üsküdar Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.uskudar.edu.tr",
+        "address": "Altunizade Mah.Haluk Türksoy Sok. No:14 Üsküdar/İstanbul"
+    },
+    {
+        "name": "Van Yüzüncü Yıl Üniversitesi",
+        "type": "Devlet",
+        "city": "Van",
+        "website": "http://www.yyu.edu.tr/",
+        "address": "Van Yüzüncü Yıl Üniversitesi Rektörlüğü, 65080, Kampüs / VAN"
+    },
+    {
+        "name": "Yalova Üniversitesi",
+        "type": "Devlet",
+        "city": "Yalova",
+        "website": "http://www.yalova.edu.tr/rektorluk",
+        "address": "Çınarcık Yolu 2.km Merkez Kampüsü Yalova"
+    },
+    {
+        "name": "Yaşar Üniversitesi",
+        "type": "Vakıf",
+        "city": "İzmir",
+        "website": "http://www.yasar.edu.tr",
+        "address": "Üniversite Cad., No.:35-37, Ağaçlı Yol, Bornova-İZMİR"
+    },
+    {
+        "name": "Yeditepe Üniversitesi",
+        "type": "Vakıf",
+        "city": "İstanbul",
+        "website": "http://www.yeditepe.edu.tr/",
+        "address": "26 Ağustos Yerleşimi.Kayışdağı Cad.34755 Ataşehir/İstanbul"
+    },
+    {
+        "name": "Yıldız Teknik Üniversitesi",
+        "type": "Devlet",
+        "city": "İstanbul",
+        "website": "http://www.yildiz.edu.tr",
+        "address": "Davutpaşa Mah. Davutpaşa Cad. 34220 Esenler - İstanbul"
+    },
+    {
+        "name": "Yozgat Bozok Üniversitesi",
+        "type": "Devlet",
+        "city": "Yozgat",
+        "website": "http://www.bozok.edu.tr/",
+        "address": "Medrese Mahallesi Adnan Menderes Bulvarı No:118 66200 Yozgat"
+    },
+    {
+        "name": "Yüksek İhtisas Üniversitesi",
+        "type": "Vakıf",
+        "city": "Ankara",
+        "website": "Yüksek İhtisas Üniversitesi",
+        "address": "İşçi blokları mahallesi 1505. sokak Çankaya/ANKARA"
+    },
+    {
+        "name": "Zonguldak Bülent Ecevit Üniversitesi",
+        "type": "Devlet",
+        "city": "Zonguldak",
+        "website": "https://www.beun.edu.tr",
+        "address": "Zonguldak Bülent Ecevit Üniversitesi Rektörlüğü İncivez-ZONGULDAK"
+    }
+]
