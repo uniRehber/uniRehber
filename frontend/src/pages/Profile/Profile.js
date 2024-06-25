@@ -1,58 +1,88 @@
-// // import React, { useEffect, useState } from 'react';
-// import { useParams, useNavigate } from 'react-router-dom';
-// import axios from 'axios';
-// import './Profile.css'; // Profil sayfasına özel stil dosyası
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
+import './Profile.css'; 
 
-// const Profile = () => {
-//   const { id } = useParams();
-//   const [user, setUser] = useState(null);
-//   const [loading, setLoading] = useState(true);
-//   const [error, setError] = useState(null);
-//   const navigate = useNavigate();
+const Profile = () => {
+  const { id } = useParams();
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [profileImage, setProfileImage] = useState(null);
 
-//   useEffect(() => {
-//     const fetchUser = async () => {
-//       try {
-//         const response = await axios.get(`http://localhost:8000/user/${id}`);
-//         setUser(response.data);
-//       } catch (error) {
-//         console.error('Kullanıcı bilgileri alınırken bir hata oluştu:', error);
-//         setError('Kullanıcı bilgileri alınırken bir hata oluştu.');
-//       } finally {
-//         setLoading(false);
-//       }
-//     };
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const response = await axios.get(`http://localhost:8000/users/${id}`);
+        setUser(response.data);
+        setProfileImage(response.data.profilePicture); // Varsayılan profil resmini ayarla
+      } catch (error) {
+        console.error('Error fetching user data:', error);
+        setError('Kullanıcı bilgileri alınırken bir hata oluştu.');
+      } finally {
+        setLoading(false);
+      }
+    };
 
-//     fetchUser();
-//   }, [id]);
+    fetchUser();
+  }, [id]);
 
-//   if (loading) {
-//     return <div>Yükleniyor...</div>;
-//   }
+  const handleImageUpload = (event) => {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+    reader.onload = () => {
+      setProfileImage(reader.result);
+    };
+    reader.readAsDataURL(file);
+  };
 
-//   if (error) {
-//     return <div>{error}</div>;
-//   }
+  const handleImageSave = async () => {
+    try {
+      const formData = new FormData();
+      formData.append('profilePicture', profileImage);
 
-//   if (!user) {
-//     return <div>Kullanıcı bulunamadı.</div>;
-//   }
+      await axios.put(`http://localhost:8000/users/${id}/profile-picture`, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+      alert('Profil resmi güncellendi.');
+    } catch (error) {
+      console.error('Error updating profile picture:', error);
+      alert('Profil resmi güncellenirken bir hata oluştu.');
+    }
+  };
 
-//   const handleLogout = () => {
-//     // Çıkış yapma işlemi (örneğin, oturum sonlandırma)
-//     navigate('/login');
-//   };
+  if (loading) {
+    return <div className="profile-container loading-message">Loading...</div>;
+  }
 
-//   return (
-//     <div className="profile-container">
-//       <h1>Hoş geldiniz, {user.name}</h1>
-//       <img src="/path_to_default_avatar_image" alt="Profil Resmi" className="profile-image" />
-//       <p>Email: {user.email}</p>
-//       <p>Katılım Tarihi: {new Date(user.createdAt).toLocaleDateString()}</p>
-//       <button onClick={handleLogout}>Çıkış Yap</button>
-//       {/* Kullanıcı bilgilerini güncelleme formu veya bileşenleri buraya eklenebilir */}
-//     </div>
-//   );
-// };
+  if (error) {
+    return <div className="profile-container error-message">{error}</div>;
+  }
 
-// export default Profile;
+  if (!user) {
+    return <div className="profile-container">Kullanıcı bulunamadı.</div>;
+  }
+
+  return (
+    <div className="profile-container">
+      <h2>Profil Bilgileri</h2>
+      <div>
+        <img src={profileImage} alt="Profil Resmi" className="profile-image" />
+        <input type="file" accept="image/*" onChange={handleImageUpload} />
+        <button onClick={handleImageSave}>Profil Resmini Kaydet</button>
+        <h3>{user.username}</h3>
+        <div className="info-item">
+          <p><strong>Ad:</strong> {user.firstName}</p>
+          <p><strong>Soyad:</strong> {user.lastName}</p>
+          <p><strong>E-posta:</strong> {user.email}</p>
+          <p><strong>Biyografi:</strong> {user.bio}</p>
+          <p><strong>Envanter:</strong> {user.envanter}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Profile;
