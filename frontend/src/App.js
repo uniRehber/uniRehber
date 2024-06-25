@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from './Header.js';
 import  Login  from './pages/Login/Login.jsx';
-import Profile from './pages/Profile.js';
 import  Register  from './pages/Register/Register.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz/CareerQuiz.js';
@@ -13,6 +12,7 @@ import { Results } from './pages/CareerQuiz/Results.js';
 import axios from 'axios';
 import { Toaster } from 'react-hot-toast';
 import Programlar from './pages/Programlar/Programlar.js';
+import Profile from './pages/Profile/Profile.js';
 
 //backend iletişimi
 axios.defaults.baseURL='http://localhost:8000';
