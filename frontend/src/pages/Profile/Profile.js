@@ -72,10 +72,10 @@ const Profile = () => {
         <img src={profileImage} alt="Profil Resmi" className="profile-image" />
         <input type="file" accept="image/*" onChange={handleImageUpload} />
         <button onClick={handleImageSave}>Profil Resmini Kaydet</button>
-        <h3>{user.username}</h3>
+        <h3>{user.name}</h3>
         <div className="info-item">
-          <p><strong>Ad:</strong> {user.firstName}</p>
-          <p><strong>Soyad:</strong> {user.lastName}</p>
+          <p><strong>Ad:</strong> {user.name}</p>
+          <p><strong>Soyad:</strong> {user.surname}</p>
           <p><strong>E-posta:</strong> {user.email}</p>
           <p><strong>Biyografi:</strong> {user.bio}</p>
           <p><strong>Envanter:</strong> {user.envanter}</p>

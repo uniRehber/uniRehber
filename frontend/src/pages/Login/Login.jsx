@@ -37,7 +37,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className='login-box'>
       <form onSubmit={loginUser}>
         <label>Eposta</label>
         <input type="email" placeholder="eposta_adresi@mail.com..." value={data.email} onChange={(e) => setData({ ...data, email: e.target.value })}></input>

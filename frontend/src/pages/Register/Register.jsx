@@ -2,25 +2,27 @@ import { useState } from "react";
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from "react-router-dom";
+import './RegisterPage.css';
 
 export default function Register() {
     const navigate = useNavigate();
     const [data, setData] = useState({
         name: '',
+        surname: '',
         email: '',
         password: '',
     });
 
     const registerUser = async (e) => {
         e.preventDefault();
-        const { name, email, password } = data;
+        const { name, surname,  email, password } = data;
         try {
-            const response = await axios.post('/register', { name, email, password });
+            const response = await axios.post('/register', { name, surname , email, password });
             const result = response.data;
             if (result.error) { 
                 toast.error(result.error);
             } else {
-                setData({ name: '', email: '', password: '' });
+                setData({ name: '',surname: '', email: '', password: '' });
                 toast.success('Kayıt başarılı');
                 navigate('/login');
             }
@@ -40,7 +42,7 @@ export default function Register() {
     };
 
     return (
-        <div>
+        <div className="register-box">
             <form onSubmit={registerUser}>
                 <label>İsim</label>
                 <input 
@@ -48,6 +50,14 @@ export default function Register() {
                     placeholder="kullanıcı adı..." 
                     value={data.name} 
                     onChange={(e) => setData({ ...data, name: e.target.value })}
+                    required
+                />
+                <label>Soyisim</label>
+                <input 
+                    type="text" 
+                    placeholder="kullanıcı adı..." 
+                    value={data.surname} 
+                    onChange={(e) => setData({ ...data, surname: e.target.value })}
                     required
                 />
                 <label>Eposta</label>
