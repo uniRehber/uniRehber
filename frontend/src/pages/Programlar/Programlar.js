@@ -4,7 +4,7 @@ import erasmus from '../Programlar/erasmus.jpg';
 import farabi from '../Programlar/farabi.jpg'; 
 import './Programlar.css';
 
-const Program = ({ title, description, imgSrc }) => {
+export const Program = ({ title, description, imgSrc }) => {
     return (
         <div className="program">
             <img src={imgSrc} alt={title} />

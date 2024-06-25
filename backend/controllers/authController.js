@@ -1,5 +1,5 @@
-const User = require('../models/user');
-const { hashPassword, comparePassword } = require('../helpers/auth');
+const User = require('../models/user.js');
+const { hashPassword, comparePassword } = require('../helpers/auth.js');
 
 const test = (req, res) => {
     res.json('test is working');
