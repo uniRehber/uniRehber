@@ -4,6 +4,9 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
 
+// const universityRoutes = require('./routes/universityRoutes');
+const commentRoutes = require('./routes/commentRoutes'); 
+
 // Veritabanı bağlantısı
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -27,6 +30,8 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/', require('./routes/authRoutes'));
+app.use('/', require('./routes/universityRoutes'));
+app.use('/', require('./routes/commentRoutes'));
 
 const port = 8000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));

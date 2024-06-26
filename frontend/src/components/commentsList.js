@@ -6,7 +6,7 @@ const CommentsList = ({ universityId }) => {
 
   useEffect(() => {
     const fetchComments = async () => {
-      const res = await axios.get(`http://localhost:8000/api/comments/${universityId}`);
+      const res = await axios.get(`http://localhost:8000/comments/${universityId}`);
       setComments(res.data);
     };
     fetchComments();

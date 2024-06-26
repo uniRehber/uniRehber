@@ -8,7 +8,7 @@ const CommentForm = ({ universityId, onNewComment }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newComment = { universityId, username, comment };
-    const res = await axios.post('http://localhost:8000/api/comments', newComment);
+    const res = await axios.post('http://localhost:8000/comments', newComment);
     onNewComment(res.data);
     setUsername('');
     setComment('');
