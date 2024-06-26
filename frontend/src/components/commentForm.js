@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './commentForm.css';
 
-const CommentForm = ({ universityId, onNewComment }) => {
+const CommentForm = ({ universityId, onNewComment, onClose }) => {
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
 
@@ -15,26 +16,28 @@ const CommentForm = ({ universityId, onNewComment }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Kullanıcı:</label>
-        <input 
-          type="text" 
-          value={username} 
-          onChange={(e) => setUsername(e.target.value)} 
-          required 
-        />
-      </div>
-      <div>
-        <label>Yorum:</label>
-        <textarea 
-          value={comment} 
-          onChange={(e) => setComment(e.target.value)} 
-          required 
-        />
-      </div>
-      <button type="submit">Kaydet</button>
-    </form>
+    <div className="comment-form-container">
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Kullanıcı:</label>
+          <input 
+            type="text" 
+            value={username} 
+            onChange={(e) => setUsername(e.target.value)} 
+            required 
+          />
+        </div>
+        <div>
+          <label>Yorum:</label>
+          <textarea 
+            value={comment} 
+            onChange={(e) => setComment(e.target.value)} 
+            required 
+          />
+        </div>
+        <button type="submit">Kaydet</button>
+      </form>
+    </div>
   );
 };
 
