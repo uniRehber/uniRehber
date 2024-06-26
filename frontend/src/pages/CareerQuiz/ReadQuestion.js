@@ -1,4 +1,4 @@
-// Soruları okumak için gerekli modülü dahil edelim
+// Soruları okumak için gerekli modül
 const fs = require('fs');
 
 // JSON dosyasını okuyan fonksiyon

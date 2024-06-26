@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import sorular from './Questions.json';
-import { useNavigate } from 'react-router-dom'; // useHistory ekleyin
+import { useNavigate } from 'react-router-dom'; 
 import Switch from '@mui/material/Switch';
 import './CareerQuiz.css';
 
@@ -38,7 +38,7 @@ export const CareerQuiz = () => {
         ))}
       </div>
       <div className="tamamla-bolumu">
-        <button onClick={handleTamamlaClick}>Tamamla</button> {/* Button ekleyin ve onClick olayını ekleyin */}
+        <button onClick={handleTamamlaClick}>Tamamla</button>
       </div>
     </div>
   );

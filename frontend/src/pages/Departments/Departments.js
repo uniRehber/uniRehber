@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import departmentsData from './Departments.json'; // JSON dosyasının doğru yolunu kontrol edin!
+import departmentsData from './Departments.json'; 
 import './Departments.css';
 
 export const Departments = () => {

@@ -7,7 +7,7 @@ import  Register  from './pages/Register/Register.jsx';
 import { HomePage } from './pages/HomePage.js';
 import { CareerQuiz } from './pages/CareerQuiz/CareerQuiz.js';
 import { Departments } from './pages/Departments/Departments.js';
-import Universities, { UniversityDetails }  from './pages/Universities/Universities.js';
+import University  from './pages/Universities/University.js';
 import { Results } from './pages/CareerQuiz/Results.js';
 import axios from 'axios';
 import { Toaster } from 'react-hot-toast';
@@ -32,8 +32,7 @@ export const App = () => {
         <Route path="/profile/:id" element={<Profile />} />
         <Route path='/register' element={<Register/>} />
         <Route path="/departments" element={<Departments/>} />
-        <Route path="/universities" element={<Universities/>} />
-        <Route path="/university/:name" element={<UniversityDetails />} />
+        <Route path="/university" element={<University/>} />
         <Route path='/programlar' element={<Programlar/>} />
 
       </Routes>

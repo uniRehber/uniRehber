@@ -6,7 +6,6 @@ export const University = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    // JSON dosyasının doğru yolunu belirtin
     fetch('/Universities.json')
       .then(response => {
         if (!response.ok) {
