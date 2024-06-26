@@ -20,13 +20,13 @@
     overflow-y: auto;
   }
   
-  .close-button {
+  /* .close-button {
     position: absolute;
-    top: 10px;
+    top: 50px;
     right: 10px;
-    background: none;
+    background-color: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-  }
+  } */
   

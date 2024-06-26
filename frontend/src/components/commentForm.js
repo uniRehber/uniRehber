@@ -17,7 +17,7 @@ const CommentForm = ({ universityId, onNewComment }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>Username:</label>
+        <label>Kullanıcı:</label>
         <input 
           type="text" 
           value={username} 
@@ -26,14 +26,14 @@ const CommentForm = ({ universityId, onNewComment }) => {
         />
       </div>
       <div>
-        <label>Comment:</label>
+        <label>Yorum:</label>
         <textarea 
           value={comment} 
           onChange={(e) => setComment(e.target.value)} 
           required 
         />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit">Kaydet</button>
     </form>
   );
 };
