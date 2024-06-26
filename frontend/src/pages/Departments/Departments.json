@@ -1,38 +1,38 @@
 {
     "sayısal": {
-        "Elektrik - Elektronik Mühendisliği Bölümü": [
+        "En İyi Elektrik - Elektronik Mühendisliği Bölümleri": [
             "Koç Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi"
         ],
-        "Bilgisayar Mühendisliği Bölümü": [
+        "En İyi Bilgisayar Mühendisliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Koç Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Orta Doğu Teknik Üniversitesi"
         ],
-        "Endüstri Mühendisliği Bölümü": [
+        "En İyi Endüstri Mühendisliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Koç Üniversitesi",
             "İstanbul Teknik Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi"
         ],
-        "Makine Mühendisliği Bölümü": [
+        "En İyi Makine Mühendisliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Koç Üniversitesi"
         ],
-        "İnşaat Mühendisliği Bölümü": [
+        "En İyi İnşaat Mühendisliği Bölümleri": [
             "Boğaziçi Üniversitesi"
         ],
-        "Kimya Mühendisliği Bölümü": [
+        "En İyi Kimya Mühendisliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "İstanbul Teknik Üniversitesi"
         ],
-        "Yazılım Mühendisliği Bölümü": [
+        "En İyi Yazılım Mühendisliği Bölümleri": [
             "İzmir Ekonomi Üniversitesi",
             "Yaşar Üniversitesi",
             "Bahçeşehir Üniversitesi",
@@ -44,20 +44,20 @@
             "İstanbul Sabahattin Zaim Üniversitesi",
             "Celal Bayar Üniversitesi"
         ],
-        "Mekatronik Mühendisliği Bölümü": [
+        "En İyi Mekatronik Mühendisliği Bölümleri": [
             "Yıldız Teknik Üniversitesi",
             "Bahçeşehir Üniversitesi"
         ],
-        "Gıda Mühendisliği Bölümü": [
+        "En İyi Gıda Mühendisliği Bölümleri": [
             "Orta Doğu Teknik Üniversitesi",
             "İstanbul Teknik Üniversitesi"
         ],
-        "Matematik Bölümü": [
+        "En İyi Matematik Bölümleri": [
             "Koç Üniversitesi",
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi"
         ],
-        "İlköğretim Matematik Öğretmenliği Bölümü": [
+        "En İyi İlköğretim Matematik Öğretmenliği Bölümleri": [
             "Erciyes Üniversitesi",
             "Boğaziçi Üniversitesi",
             "İstanbul Üniversitesi",
@@ -69,7 +69,7 @@
             "Yıldız Teknik Üniversitesi",
             "Aksaray Üniversitesi"
         ],
-        "Matematik Öğretmenliği Bölümü": [
+        "En İyi Matematik Öğretmenliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Dicle Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
@@ -78,20 +78,20 @@
             "Marmara Üniversitesi",
             "Balıkesir Üniversitesi"
         ],
-        "Fen Bilgisi Öğretmenliği Bölümü": [
+        "En İyi Fen Bilgisi Öğretmenliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "Uludağ Üniversitesi",
             "Hacettepe Üniversitesi"
         ],
-        "Tıp Bölümü": [
+        "En İyi Tıp Bölümleri": [
             "Koç Üniversitesi",
             "İstanbul Medipol Üniversitesi",
             "Hacettepe Üniversitesi",
             "İstanbul Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi"
         ],
-        "Diş Hekimliği Bölümü": [
+        "En İyi Diş Hekimliği Bölümleri": [
             "Yeditepe Üniversitesi",
             "Hacettepe Üniversitesi",
             "İstanbul Üniversitesi",
@@ -103,14 +103,14 @@
             "Başkent Üniversitesi",
             "Ondokuz Mayıs Üniversitesi"
         ],
-        "Moleküler Biyoloji ve Genetik Bölümü": [
+        "En İyi Moleküler Biyoloji ve Genetik Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Koç Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "Abdullah Gül Üniversitesi"
         ],
-        "Eczacılık Bölümü": [
+        "En İyi Eczacılık Bölümleri": [
             "Bezm-i Alem Vakıf Üniversitesi",
             "İstanbul Üniversitesi",
             "Yeditepe Üniversitesi",
@@ -122,7 +122,7 @@
             "Erciyes Üniversitesi",
             "Ankara Üniversitesi"
         ],
-        "Fizyoterapi ve Rehabilitasyon Bölümü": [
+        "En İyi Fizyoterapi ve Rehabilitasyon Bölümleri": [
             "Pamukkale Üniversitesi",
             "Dokuz Eylül Üniversitesi",
             "KTO Karatay Üniversitesi",
@@ -134,14 +134,14 @@
             "Haliç Üniversitesi",
             "Mustafa Kemal Üniversitesi"
         ],
-        "Odyoloji Bölümü": [
+        "En İyi Odyoloji Bölümleri": [
             "Hacettepe Üniversitesi",
             "İstanbul Üniversitesi",
             "Başkent Üniversitesi",
             "Üsküdar Üniversitesi",
             "İnönü Üniversitesi"
         ],
-        "Beslenme ve Diyetetik Bölümü": [
+        "En İyi Beslenme ve Diyetetik Bölümleri": [
             "İstanbul Bilgi Üniversitesi",
             "KTO Karatay Üniversitesi",
             "İstanbul Medipol Üniversitesi",
@@ -153,7 +153,7 @@
             "Afyon Kocatepe Üniversitesi",
             "Haliç Üniversitesi"
         ],
-        "Veterinerlik Bölümü": [
+        "En İyi Veterinerlik Bölümleri": [
             "İstanbul Üniversitesi",
             "Ankara Üniversitesi",
             "Uludağ Üniversitesi",
@@ -165,7 +165,7 @@
             "Erciyes Üniversitesi",
             "Kırıkkale Üniversitesi"
         ],
-        "Mimarlık Bölümü": [
+        "En İyi Mimarlık Bölümleri": [
             "İhsan Doğramacı Bilkent Üniversitesi",
             "İstanbul Teknik Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
@@ -176,19 +176,19 @@
     },
 
     "eşit ağırlık": {
-        "İktisat (Ekonomi) Bölümü": [
+        "En İyi İktisat (Ekonomi) Bölümleri": [
             "Boğaziçi Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "Koç Üniversitesi"
         ],
-        "İşletme Bölümü": [
+        "En İyi İşletme Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Koç Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi"
         ],
-        "Uluslararası Ticaret Bölümü": [
+        "En İyi Uluslararası Ticaret Bölümleri": [
             "KTO Karatay Üniversitesi",
             "İstanbul Ticaret Üniversitesi",
             "Gazi Üniversitesi",
@@ -200,7 +200,7 @@
             "Işık Üniversitesi",
             "Beykent Üniversitesi"
         ],
-        "Havacılık Yönetimi Bölümü": [
+        "En İyi Havacılık Yönetimi Bölümleri": [
             "Özyeğin Üniversitesi",
             "Necmettin Erbakan Üniversitesi",
             "Anadolu Üniversitesi",
@@ -209,7 +209,7 @@
             "İstanbul Ticaret Üniversitesi",
             "Erciyes Üniversitesi"
         ],
-        "İç Mimarlık ve Çevre Tasarımı Bölümü": [
+        "En İyi İç Mimarlık ve Çevre Tasarımı Bölümleri": [
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Özyeğin Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi",
@@ -218,7 +218,7 @@
             "Bahçeşehir Üniversitesi",
             "Gedik Üniversitesi"
         ],
-        "Yönetim Bilişim Sistemleri Bölümü": [
+        "En İyi Yönetim Bilişim Sistemleri Bölümleri": [
             "Özyeğin Üniversitesi",
             "Kadir Has Üniversitesi",
             "Sakarya Üniversitesi",
@@ -230,14 +230,14 @@
             "Dokuz Eylül Üniversitesi",
             "Başkent Üniversitesi"
         ],
-        "Maliye Bölümü": [
+        "En İyi Maliye Bölümleri": [
             "Hacettepe Üniversitesi",
             "Ankara Üniversitesi",
             "Uludağ Üniversitesi",
             "Dokuz Eylül Üniversitesi",
             "Gazi Üniversitesi"
         ],
-        "Sağlık Yönetimi Bölümü": [
+        "En İyi Sağlık Yönetimi Bölümleri": [
             "Aksaray Üniversitesi",
             "Afyon Kocatepe Üniversitesi",
             "Mersin Üniversitesi",
@@ -249,7 +249,7 @@
             "Marmara Üniversitesi",
             "Kırklareli Üniversitesi"
         ],
-        "Uluslararası Ticaret ve Lojistik Bölümü": [
+        "En İyi Uluslararası Ticaret ve Lojistik Bölümleri": [
             "Kadir Has Üniversitesi",
             "Hasan Kalyoncu Üniversitesi",
             "Atılım Üniversitesi",
@@ -261,7 +261,7 @@
             "Nişantaşı Üniversitesi",
             "Yeni Yüzyıl Üniversitesi"
         ],
-        "Sınıf Öğretmenliği Bölümü": [
+        "En İyi Sınıf Öğretmenliği Bölümleri": [
             "Çukurova Üniversitesi",
             "Ege Üniversitesi",
             "Karadeniz Teknik Üniversitesi",
@@ -273,7 +273,7 @@
             "İstanbul Üniversitesi",
             "Balıkesir Üniversitesi"
         ],
-        "Psikoloji Bölümü": [
+        "En İyi Psikoloji Bölümleri": [
             "Kadir Has Üniversitesi",
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
@@ -281,29 +281,29 @@
             "TOBB Ekonomi ve Teknoloji Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi"
         ],
-        "Hukuk Bölümü": [
+        "En İyi Hukuk Bölümleri": [
             "Galatasaray Üniversitesi",
             "Koç Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Ankara Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi"
         ],
-        "Siyaset Bilimi ve Uluslararası İlişkiler Bölümü": [
+        "En İyi Siyaset Bilimi ve Uluslararası İlişkiler Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Bahçeşehir Üniversitesi"
         ],
-        "Uluslararası İlişkiler Bölümü": [
+        "En İyi Uluslararası İlişkiler Bölümleri": [
             "Koç Üniversitesi",
             "Galatasaray Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi"
         ],
-        "Felsefe Bölümü": [
+        "En İyi Felsefe Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "Koç Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi"
         ],
-        "Sosyal Hizmet Bölümü": [
+        "En İyi Sosyal Hizmet Bölümleri": [
             "KTO Karatay Üniversitesi",
             "İstanbul 29 Mayıs Üniversitesi",
             "İstanbul Medipol Üniversitesi",
@@ -315,22 +315,22 @@
             "Selçuk Üniversitesi",
             "Necmettin Erbakan Üniversitesi"
         ],
-        "Sosyoloji Bölümü": [
+        "En İyi Sosyoloji Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Galatasaray Üniversitesi",
             "Koç Üniversitesi"
         ],
-        "Rehberlik ve Psikolojik Danışmanlık Bölümü": [
+        "En İyi Rehberlik ve Psikolojik Danışmanlık Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Hacettepe Üniversitesi",
             "Marmara Üniversitesi",
             "Niğde Üniversitesi"
         ],
-        "Siyaset Bilimi ve Kamu Yönetimi Bölümü": [
+        "En İyi Siyaset Bilimi ve Kamu Yönetimi Bölümleri": [
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Orta Doğu Teknik Üniversitesi"
         ],
-        "Kamu Yönetimi": [
+        "En İyi Kamu Bölümleri": [
             "Yeditepe Üniversitesi",
             "Dokuz Eylül Üniversitesi",
             "Marmara Üniversitesi",
@@ -344,7 +344,7 @@
         ]
     },
     "sözel": {
-        "Sosyal Bilgiler Öğretmenliği Bölümü": [
+        "En İyi Sosyal Bilgiler Öğretmenliği Bölümleri": [
             "Dokuz Eylül Üniversitesi",
             "Recep Tayyip Erdoğan Üniversitesi",
             "Kastamonu Üniversitesi",
@@ -356,7 +356,7 @@
             "Süleyman Demirel Üniversitesi",
             "Yıldız Teknik Üniversitesi"
         ],
-        "Coğrafya Bölümü": [
+        "En İyi Coğrafya Bölümleri": [
             "Marmara Üniversitesi",
             "Ankara Üniversitesi",
             "Akdeniz Üniversitesi",
@@ -365,7 +365,7 @@
             "Ege Üniversitesi",
             "Niğde Üniversitesi"
         ],
-        "Türk Dili ve Edebiyatı Bölümü": [
+        "En İyi Türk Dili ve Edebiyatı Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Yeditepe Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi",
@@ -374,7 +374,7 @@
             "Fatih Sultan Mehmet Vakıf Üniversitesi",
             "Ege Üniversitesi"
         ],
-        "Tarih Bölümü": [
+        "En İyi Tarih Bölümleri": [
             "KTO Karatay Üniversitesi",
             "Boğaziçi Üniversitesi",
             "İstanbul 29 Mayıs Üniversitesi",
@@ -384,7 +384,7 @@
             "İstanbul Şehir Üniversitesi",
             "Yeditepe Üniversitesi"
         ],
-        "Sinema ve Televizyon Bölümü": [
+        "En İyi Sinema ve Televizyon Bölümleri": [
             "İstanbul Kemerburgaz Üniversitesi",
             "İstanbul Bilgi Üniversitesi",
             "Bahçeşehir Üniversitesi",
@@ -394,7 +394,7 @@
             "İstanbul Kültür Üniversitesi",
             "Anadolu Üniversitesi"
         ],
-        "Gastronomi ve Mutfak Sanatları Bölümü": [
+        "En İyi Gastronomi ve Mutfak Sanatları Bölümleri": [
             "Yeditepe Üniversitesi",
             "Balıkesir Üniversitesi",
             "Özyeğin Üniversitesi",
@@ -406,7 +406,7 @@
             "Gazi Üniversitesi",
             "Dokuz Eylül Üniversitesi"
         ],
-        "Halkla İlişkiler ve Reklamcılık Bölümü": [
+        "En İyi Halkla İlişkiler ve Reklamcılık Bölümleri": [
             "İstanbul Medipol Üniversitesi",
             "Atılım Üniversitesi",
             "Yaşar Üniversitesi",
@@ -416,7 +416,7 @@
             "Beykent Üniversitesi",
             "Sakarya Üniversitesi"
         ],
-        "Radyo, Televizyon ve Sinema Bölümü": [
+        "En İyi Radyo, Televizyon ve Sinema Bölümleri": [
             "Kadir Has Üniversitesi",
             "Yeditepe Üniversitesi",
             "Ankara Üniversitesi",
@@ -424,7 +424,7 @@
             "İstanbul Üniversitesi",
             "Gazi Üniversitesi"
         ],
-        "Görsel İletişim Tasarımı Bölümü": [
+        "En İyi Görsel İletişim Tasarımı Bölümleri": [
             "Kadir Has Üniversitesi",
             "TOBB Ekonomi ve Teknoloji Üniversitesi",
             "İstanbul Bilgi Üniversitesi",
@@ -436,7 +436,7 @@
             "Yaşar Üniversitesi",
             "İstanbul Ticaret Üniversitesi"
         ],
-        "Türkçe Öğretmenliği Bölümü": [
+        "En İyi Türkçe Öğretmenliği Bölümleri": [
             "Ondokuz Mayıs Üniversitesi",
             "İstanbul Üniversitesi",
             "Balıkesir Üniversitesi",
@@ -448,7 +448,7 @@
             "Marmara Üniversitesi",
             "Sakarya Üniversitesi"
         ],
-        "Halkla İlişkiler ve Tanıtım Bölümü": [
+        "En İyi Halkla İlişkiler ve Tanıtım Bölümleri": [
             "Yeditepe Üniversitesi",
             "Marmara Üniversitesi",
             "Kadir Has Üniversitesi",
@@ -460,7 +460,7 @@
             "Gazi Üniversitesi",
             "Akdeniz Üniversitesi"
         ],
-        "Gazetecilik Bölümü": [
+        "En İyi Gazetecilik Bölümleri": [
             "Ankara Üniversitesi",
             "Yeditepe Üniversitesi",
             "Gazi Üniversitesi",
@@ -470,7 +470,7 @@
         ]
     },
     "dil": {
-        "İngilizce Öğretmenliği Bölümü": [
+        "En İyi İngilizce Öğretmenliği Bölümleri": [
             "Boğaziçi Üniversitesi",
             "Orta Doğu Teknik Üniversitesi",
             "Gazi Üniversitesi",
@@ -482,14 +482,14 @@
             "İstanbul Üniversitesi",
             "Akdeniz Üniversitesi"
         ],
-        "Mütercim-Tercümanlık (İngilizce) Bölümü": [
+        "En İyi Mütercim-Tercümanlık (İngilizce) Bölümleri": [
             "Hacettepe Üniversitesi",
             "Atılım Üniversitesi",
             "Dokuz Eylül Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Haliç Üniversitesi"
         ],
-        "İngiliz Dili ve Edebiyatı Bölümü": [
+        "En İyi İngiliz Dili ve Edebiyatı Bölümleri": [
             "Boğaziçi Üniversitesi",
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Yeditepe Üniversitesi",
@@ -500,7 +500,7 @@
             "Çankaya Üniversitesi",
             "Ege Üniversitesi"
         ],
-        "Amerikan Kültürü ve Edebiyatı Bölümü": [
+        "En İyi Amerikan Kültürü ve Edebiyatı Bölümleri": [
             "İhsan Doğramacı Bilkent Üniversitesi",
             "Hacettepe Üniversitesi",
             "İstanbul Üniversitesi",
