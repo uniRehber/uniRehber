@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const CommentsList = ({ universityId }) => {
+export const CommentsList = ({ universityId }) => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {

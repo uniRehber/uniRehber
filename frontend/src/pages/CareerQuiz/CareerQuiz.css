@@ -15,22 +15,23 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.header {
+
+/* Yalnızca CareerQuiz bileşenindeki header için stil tanımlamaları */
+.quiz-header { /* className'i değiştirdik */
   background-color: rgb(213, 211, 223);
   margin-bottom: 30px; /* Başlık ve açıklama arasına boşluk ekleyelim */
 }
 
-.career-quiz h1 {
+.quiz-header h1 { /* className'i değiştirdik */
   font-size: 24px;
   color: #19283a;
   margin-bottom: 20px;
 }
 
-.career-quiz p {
+.quiz-header p { /* className'i değiştirdik */
   font-size: 16px;
   color: #292525;
   margin-bottom: 30px;
-  
 }
 
 /* Sorular bölümü */
@@ -52,6 +53,7 @@ body {
   color: #333;
   margin-right: 10px;
 }
+
 .tamamla-bolumu {
   background-color: #f0f0f0;
   padding: 20px;
@@ -65,5 +67,3 @@ body {
   padding: 10px 20px;
   cursor: pointer;
 }
-
-

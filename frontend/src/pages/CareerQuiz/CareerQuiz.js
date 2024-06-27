@@ -22,7 +22,7 @@ export const CareerQuiz = () => {
 
   return (
     <div className="career-quiz">
-      <div className="header">
+      <div className="quiz-header"> {/* className'i değiştirdik */}
         <h1> Meslek Testi </h1>
         <p>Bu test, meslek seçimi ve belirlemesi hakkında size yardımcı olmak amacıyla hazırlanmıştır. Kendinize uygun gördüğünüz seçenekleri lütfen işaretleyiniz.</p>
       </div>
