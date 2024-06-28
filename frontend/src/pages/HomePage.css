@@ -1,0 +1,25 @@
+.exam-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.exam-buttons h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.exam-buttons button {
+  background-color: #0f365f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.exam-buttons button:hover {
+  background-color: #0864c5;
+}

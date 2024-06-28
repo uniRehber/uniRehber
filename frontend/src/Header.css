@@ -1,130 +1,132 @@
 .header {
-    height: 15vh;
-    width: 100%;
-    background-color: #050509;
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo-container {
-    flex: 0.5;
-  }
-  
-  .logo-container img {
-    height: 80px;
-  }
-  
-  .menu-container {
-    flex: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  height: 15vh;
+  width: 100%;
+  background-color: #050509;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Bu satırı ekleyin */
+}
 
-  ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-left: 50px;
-  }
-  
-  ul li:first-child {
-    margin-left: 0;
-  }
-  
-  nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 2rem;
-    margin: 0 0.5rem;
-    border-radius: 0.5rem;
-  }
-  
-  nav ul li a:not(.active):hover {
-    background-color: #172554;
-  }
-  
-  .user-icons {
-    color: white;
-    font-size: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .burgerMenu {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-    position: relative;
-    margin-right: 20px; 
-  }
-  
-  .burger-bar {
-    margin: 5px;
-    width: 2.5em;
-    height: 0.2em;
-    background-color: white;
-    border-radius: 0.5em;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .visible {
-    display: block;
-    position: absolute;
-    top: 15vh; /* Header height */
-    right: 10px;
-    background-color: #050509;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .visible button {
-    background: none;
-    border: none;
-    color: white;
-    text-align: left;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .visible button:hover {
-    background-color: #172554;
-  }
-  
-  /* Clicked state */
-  .burger-bar.clicked:nth-child(1) {
-    transform: rotate(45deg) translate(0.5em, 0.7em);
-    transition: ease-out 0.5s;
-  }
-  
-  .burger-bar.clicked:nth-child(2) {
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
-  }
-  
-  .burger-bar.clicked:nth-child(3) {
-    transform: rotate(-45deg) translate(0.5em, -0.7em);
-    transition: ease-out 0.5s;
-  }
-  
-  /* Unclicked state */
-  .burger-bar.unclicked {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-  }
-  
+.logo-container {
+  flex: 0.5;
+}
+
+.logo-container img {
+  height: 80px;
+}
+
+.menu-container {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 50px;
+}
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #172554;
+}
+
+.user-icons {
+  color: white;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burgerMenu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  margin-right: 20px;
+}
+
+.burger-bar {
+  margin: 5px;
+  width: 2.5em;
+  height: 0.2em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15vh; /* Header height */
+  right: 10px;
+  background-color: #050509;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000; /* Bu satırı ekleyin */
+}
+
+.visible button {
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.visible button:hover {
+  background-color: #172554;
+}
+
+/* Clicked state */
+.burger-bar.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.5em, 0.7em);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+  transform: rotate(-45deg) translate(0.5em, -0.7em);
+  transition: ease-out 0.5s;
+}
+
+/* Unclicked state */
+.burger-bar.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
