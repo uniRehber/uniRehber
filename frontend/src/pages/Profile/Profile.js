@@ -75,8 +75,6 @@ const Profile = () => {
         <h3>{user.name}</h3>
         <div className="info-item">
           <p><strong>E-posta:</strong> {user.email}</p>
-          <p><strong>Biyografi:</strong> {user.bio}</p>
-          <p><strong>Envanter:</strong> {user.envanter}</p>
         </div>
       </div>
     </div>
